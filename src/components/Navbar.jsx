@@ -1,26 +1,27 @@
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
-    <>
+    <main>
       {/* <h1>navbar</h1> */}
-      <nav>
+
+      <nav style={{backgroundColor:'#010a4dff', width: '85.1rem', height: '8rem', padding: '1rem 1.9rem', margin: '0rem' }}>
         <a href="">LNF</a>
-        <ul>
-          <li>
-            <NavLink to="">Home</NavLink>
+        <ul style={{ display: 'flex', gap: '2rem', justifyContent: "center", alignItems: "flex-end"}}>
+          <li className="liStyl">
+            <NavLink to="" className="liText">Home</NavLink>
           </li>
-          <li>
-            <NavLink to="">About Us</NavLink>
+          <li className="liStyl">
+            <NavLink to="" className="liText">About Us</NavLink>
           </li>
-          <li>
-            <NavLink to="">Join Us</NavLink>
+          <li className="liStyl">
+            <NavLink to="" className="liText">Join Us</NavLink>
           </li>
-          <li>
-            <NavLink to="">Weekly Activities</NavLink>
+          <li className="liStyl">
+            <NavLink to="" className="liText">Weekly Activities</NavLink>
           </li>
         </ul>
       </nav>
-    </>
+    </main>
   );
 };
 
