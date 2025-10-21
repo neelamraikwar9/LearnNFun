@@ -8,3 +8,43 @@
   text-decoration: none;
 }
 
+.imgContainer {
+   display: flex; 
+   border: '5px solid green';
+   margin: 10rem
+}
+
+.imgSecCont {
+  border: 1px solid red;
+  width: 40rem; 
+  height: 30rem;
+}
+
+.shortInfoCon {
+  border: 1px solid red; 
+  width: 40rem; 
+  height: 20rem; 
+  padding: 2rem;
+  margin: 3rem;
+}
+
+.missionStatement {
+  border: 1px solid rgb(248, 8, 48); 
+  /* background-color: #05339C; */
+  margin: 7rem 0rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.bigContainer {
+  border: 2px solid yellow;
+}
+
+.statement {
+  color: oklch(48.8% 0.243 264.376);
+  font-family: 'Times New Roman';
+  font-style: oblique;
+}
+
+

@@ -4,7 +4,7 @@ const Navbar = () => {
     <main>
       {/* <h1>navbar</h1> */}
 
-      <nav style={{backgroundColor:'#010a4dff', width: '85.1rem', height: '8rem', padding: '1rem 1.9rem', margin: '0rem' }}>
+      <nav style={{backgroundColor:'#010a4dff', height: '5rem', padding: '1rem 1.9rem', margin: '0rem', position: 'fixed', width: '86rem', }}>
         <a href="">LNF</a>
         <ul style={{ display: 'flex', gap: '2rem', justifyContent: "center", alignItems: "flex-end"}}>
           <li className="liStyl">
