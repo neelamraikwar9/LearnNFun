@@ -3,23 +3,25 @@ const Navbar = () => {
   return (
     <main>
       {/* <h1>navbar</h1> */}
-
-      <nav style={{backgroundColor:'#010a4dff', height: '5rem', padding: '1rem 1.9rem', margin: '0rem', position: 'fixed', width: '86rem', }}>
+      
+      <nav className="navContainer">
         <a href="">LNF</a>
-        <ul style={{ display: 'flex', gap: '2rem', justifyContent: "center", alignItems: "flex-end"}}>
+        <ul className="ulCon">
           <li className="liStyl">
             <NavLink to="" className="liText">Home</NavLink>
           </li>
           <li className="liStyl">
-            <NavLink to="" className="liText">About Us</NavLink>
+            <NavLink to="" className="liText">About</NavLink>
           </li>
           <li className="liStyl">
-            <NavLink to="" className="liText">Join Us</NavLink>
+            <NavLink to="" className="liText">Member</NavLink>
           </li>
+          
           <li className="liStyl">
-            <NavLink to="" className="liText">Weekly Activities</NavLink>
+            <NavLink to="" className="liText">Schedule</NavLink>
           </li>
         </ul>
+        <button className="joinUs">Join us!</button>
       </nav>
     </main>
   );

@@ -3,13 +3,31 @@ const LandingPage = () => {
 
     return(
         <main className="body">
+        <div className="background">
+           {/* <img src="/public/images/img.png" alt="backgroundimg"/> */}
+        <div className="navbar">
         <Navbar/>
+        </div>
+
+        <div className="lines">
+          <h1>Discover How We Enhance Your English Communication Skills</h1>
+          <p>Broaden your knowledge network to break free from life's constraints. </p>
+           <button className="">Learn More</button>
+        </div>
+        </div>
+
+      
+     
+   
+
+
+        
         <br/>
         <br/>
 
         <div className="imgContainer">
             <div className="imgSecCont">
-            {/* <img src="" alt=""/> */}
+            {/* <img src="/public/images/img" alt="backgroundimg"/> */}
             </div>
  
             <div className="shortInfoCon">
