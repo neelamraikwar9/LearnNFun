@@ -15,7 +15,8 @@
   display: flex;
   flex-wrap: wrap;
   /* justify-content:space-evenly; */
-  gap: 10rem;
+  gap: 5rem;
+  border: 1px solid  salmon;
 }
 
 
@@ -36,7 +37,7 @@
 .joinUs{
   position: absolute;
   /* nav-left: 4rem; */
-  left:75rem;
+  left:65rem;
   bottom: 2rem;
   /* border: 1px solid red; */
   border-radius: 2rem;
