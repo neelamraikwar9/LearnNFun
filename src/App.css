@@ -46,7 +46,9 @@
   background-color: greenyellow;
   /* background-color: color rgb(188, 239, 156) */
   font-style: none;
-;
+  top: 1rem;
+
+
 }
 
 .joinUs:hover{
