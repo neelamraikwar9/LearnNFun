@@ -7,7 +7,7 @@
   padding: 1rem 1.9rem; 
   margin-top: 1rem; 
   /* position: fixed;  */
-  width: 75.6rem; 
+  width: 75.5rem; 
   border-radius: 5rem;
   /* padding: */
 }
@@ -93,7 +93,7 @@
 .background {
   /* position: static; */
   /* width: 67.8rem; */
-  width: 77.5rem;
+  width: 79rem;
   height: 60rem;
   background: url("/images/img.png");
   background-size: cover;
