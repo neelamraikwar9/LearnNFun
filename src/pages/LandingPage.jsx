@@ -1,4 +1,6 @@
 import Navbar from "../components/Navbar";
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 const LandingPage = () => {
   return (
     <main className="body">
@@ -18,100 +20,190 @@ const LandingPage = () => {
           <button className="midBtn">Learn More</button>
         </div>
       </div>
-      <br/>
-      
+      <br />
 
-      
-
-
-     
-     <div className="container">    
-      <div className="vibrantCon">
-      <img src="https://res.cloudinary.com/dltfnhclh/image/upload/v1761486685/Untitled_design_ndthtg.png" alt="communityImg" className="imgCon"/>
-        <div className="vibText">
+      <div className="container">
+        <div className="vibrantCon">
+          <img
+            src="https://res.cloudinary.com/dltfnhclh/image/upload/v1761486685/Untitled_design_ndthtg.png"
+            alt="communityImg"
+            className="imgCon"
+          />
+          <div className="vibText">
             <h1 className="textHead">Our Vibrant English Community</h1>
-            <p className="miss">At Learn 'N' Fun, we're on a mission to revolutionize English communication through interactive and engaging classes.</p>
-            <br/>
-            <br/>
-    
-            
-            <p><i>" Strength is Life, Weakness is Death. Expansion is Life, Contraction is Death. Love is Life, Hatred is Death. " </i></p>
+            <p className="miss">
+              At Learn 'N' Fun, we're on a mission to revolutionize English
+              communication through interactive and engaging classes.
+            </p>
+            <br />
+            <br />
+
+            <p>
+              <i>
+                " Strength is Life, Weakness is Death. Expansion is Life,
+                Contraction is Death. Love is Life, Hatred is Death. "{" "}
+              </i>
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div className="iniContainer">
-        <h1 className="textHead initiator">The Initiator</h1>
+        <div className="iniContainer">
+          <h1 className="textHead initiator">The Initiator</h1>
 
-        <div className="iniCon">
+          <div className="iniCon">
             <div className="iniImg">
-                <img src="https://res.cloudinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png" alt="Shubham Pandey" className="Sh"/>
+              <img
+                src="https://res.cloudinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
+                alt="Shubham Pandey"
+                className="Sh"
+              />
             </div>
             <div className="iniName">
-                <h2>Shubham Pandey</h2>
+              <h2>Shubham Pandey</h2>
             </div>
+          </div>
         </div>
-      </div>
 
+        <div className="iniContainer">
+          <h1 className="textHead initiator">
+            Meet a Few of Our Community Members
+          </h1>
 
-     <div className="iniContainer">
-        <h1 className="textHead initiator">Meet a Few of Our Community Members</h1>
+          <div className="iniContainer  teContainer">
+            <div className="teCon">
+              <div className="">
+                <img
+                  src="https://res.clodinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
+                  alt="Shubham Pandey"
+                  className="Sh"
+                />
+              </div>
+              <div className="teAbout">
+                <h2>person name</h2>
+              </div>
+            </div>
+
+            <div className="teCon">
+              <div className="">
+                <img
+                  src="https://res.clodinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
+                  alt="Shubham Pandey"
+                  className="Sh"
+                />
+              </div>
+              <div className="teAbout">
+                <h2>person name</h2>
+              </div>
+            </div>
+
+            <div className="teCon">
+              <div className="">
+                <img
+                  src="https://res.clodinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
+                  alt="Shubham Pandey"
+                  className="Sh"
+                />
+              </div>
+              <div className="teAbout">
+                <h2>person name</h2>
+              </div>
+            </div>
+
+            <div className="teCon">
+              <div className="">
+                <img
+                  src="https://res.cldinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
+                  alt="Shubham Pandey"
+                  className="Sh"
+                />
+              </div>
+              <div className="teAbout">
+                <h2>person name</h2>
+              </div>
+            </div>
+
+            <div className="teCon">
+              <div className="">
+                <img
+                  src="https://res.clodinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
+                  alt="Shubham Pandey"
+                  className="Sh"
+                />
+              </div>
+              <div className="teAbout">
+                <h2>person name</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="iniContainer">
+          <h1 className="textHead initiator">Class Schedule</h1>
+          <div className="sceduleCon">
+          <div className="attendUsContainer">
+            <h1>Attend Us!</h1>
+            <div className="attendUsCon">
+              <div className="schBox">
+                <i
+                  class="bi bi-calendar3"
+                  style={{
+                    fontSize: "2rem",
+                    color: "greenyellow",
+                    border: "1px solid green",
+                    padding: "1rem",
+                  }}
+                ></i>
+                <p>
+                  <i>Every Saturday to Wednesday (5 Days A Week)</i>
+                </p>
+              </div>
+
+              <div className="schBox">
+                <i
+                  class="bi bi-alarm-fill"
+                  style={{
+                    fontSize: "2rem",
+                    color: "greenyellow",
+                    border: "1px solid green",
+                    padding: "1rem",
+                  }}
+                ></i>
+                <p>
+                  <i>7:15 to 8:15</i>
+                </p>
+              </div>
+
+              <div className="schBox">
+                <i
+                  class="bi bi-geo-alt-fill"
+                  style={{
+                    fontSize: "2rem",
+                    color: "greenyellow",
+                    border: "1px solid green",
+                    padding: "1rem",
+                  }}
+                ></i>
+                <p>
+                  <i>Online - Via Google Meet</i>
+                </p>
+              </div>
+            </div>
  
-        <div className="iniContainer  teContainer">
-        <div className="teCon">
-            <div className="">
-                <img src="https://res.cloudinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png" alt="Shubham Pandey" className="Sh"/>
+
+            <div className="message">
+              <p>
+                Join us to elevate your speaking skills in a welcoming class
+                designed for speakers of all backgrounds and experience levels.
+                Whether you're just beginning your speaking journey or looking
+                to refine your abilities, you'll gain valuable insights and
+                expert guidance to boost your confidence and effectiveness.
+                Benefit from our expertise and take your speaking prowess to the
+                next level.
+              </p>
             </div>
-            <div className="teAbout">
-                <h2>Shubham Pandey</h2>
             </div>
+          </div>
         </div>
-
-
-        <div className="teCon">
-            <div className="">
-                <img src="https://res.cloudinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png" alt="Shubham Pandey" className="Sh"/>
-            </div>
-            <div className="teAbout">
-                <h2>Shubham Pandey</h2>
-            </div>
-        </div>
-        
-
-
-        <div className="teCon">
-            <div className="">
-                <img src="https://res.cloudinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png" alt="Shubham Pandey" className="Sh"/>
-            </div>
-            <div className="teAbout">
-                <h2>Shubham Pandey</h2>
-            </div>
-        </div>
-
-
-        <div className="teCon">
-            <div className="">
-                <img src="https://res.cloudinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png" alt="Shubham Pandey" className="Sh"/>
-            </div>
-            <div className="teAbout">
-                <h2>Shubham Pandey</h2>
-            </div>
-        </div>
-
-        <div className="teCon">
-            <div className="">
-                <img src="https://res.cloudinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png" alt="Shubham Pandey" className="Sh"/>
-            </div>
-            <div className="teAbout">
-                <h2>Shubham Pandey</h2>
-            </div>
-        </div>
-        </div>
-
-
-        
-      
-      </div>
-
       </div>
 
       {/* <div className="bigContainer">

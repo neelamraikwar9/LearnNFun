@@ -47,9 +47,7 @@
   background-color: greenyellow;
   /* background-color: color rgb(188, 239, 156) */
   font-style: none;
-  /* top: 1rem; */
-  /* right: 2rem; */
-  /* margin-right: 70rem; */
+ 
 
 
 
@@ -58,7 +56,7 @@
 .joinUs:hover{
   /* background-color:oklch(79.2% 0.209 151.711); */
   background-color: oklch(86.858% 0.16648 131.682); ;
-  /* background-color: oklch(87.1% 0.15 154.449); */
+
 
 }
 
@@ -73,7 +71,7 @@
   justify-content: center; 
   align-items: flex-end; 
   margin-bottom: 1.5rem;
-  /* flex-direction: column; */
+  
 
 }
 
@@ -83,7 +81,7 @@
 } 
 
 .liText {
-  /* color: white; */
+
   color:rgb(23, 49, 246);
   text-decoration: none;
   font-size: 1.9rem;
@@ -109,20 +107,18 @@
 
 .lines {
   position: relative;
-  /* border: 1px solid red; */
+ 
   top: 20rem;
-  /* margin: 4rem; */
+ 
   display: flex;
   align-items: center;
-  /* justify-content: center; */
-  /* padding: 10rem; */
+
   flex-direction: column;
   height: 25rem;
   color: whitesmoke;
-  /* font-family:Arial, Helvetica, sans-serif; */
+  
   font-weight: bold;
-  /* font-size: rem; */
-  /* margin-bottom: 3rem; */
+ 
 
 }
 
@@ -130,12 +126,12 @@
   font-size: 5rem;
   display: flex;
   justify-content: center;
-  /* border: 1px solid salmon; */
+  border: 1px solid salmon;
   height: 13rem;
   width: 70rem;
   margin-bottom: 2rem;
 
-  /* font-family:  */
+
 }
 
 .midp1{
@@ -144,15 +140,14 @@
 } 
 
 .midBtn {
-  /* background-color: oklch(59.2% 0.249 0.584); */
-  /* background-color: oklch(65.6% 0.241 354.308); */
+
   background-color:  oklch(86.858% 0.16648 131.682);
-  /* border-radius: 2; */
+ 
   padding: 2rem;
   border-radius: 3rem;
   font-weight: bold;
   font-size: 1.5rem;
-  /* color: white */
+  
 }
 
 
@@ -169,8 +164,7 @@
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
-  /* width: 60rem; */
-  /* flex */
+  
 
 }
 
@@ -229,14 +223,14 @@
 }
 
 .iniImg {
-   /* border: 1px solid rgb(136, 172, 83); */
+   border: 1px solid rgb(136, 172, 83);
    display: flex;
    justify-content: center;
    
 }
 
 .iniName {
-   /* border: 1px solid rgb(136, 172, 83); */
+   border: 1px solid rgb(136, 172, 83);
    
    display: flex;
    justify-content: center;
@@ -266,6 +260,51 @@
    justify-content: center;
 }
 
+.sceduleCon{
+  display: flex;
+  justify-content: center;
+  border:1px solid rgb(47, 168, 255);
+  
 
+}
+
+.attendUsContainer {
+  border: 1px solid rgb(252, 2, 190);
+  padding: 2rem;
+  width: 40rem;
+  height: 40rem;
+  display: flex;
+
+  flex-direction: column;
+ 
+  border-radius: 2rem;
+}
+
+
+
+
+
+.attendUsCon .schBox p {
+  color: white;
+  font-size: 1.5rem;
+  
+}
+
+.attendUsCon {
+  display: flex;
+  flex-direction: column;
+}
+
+.schBox {
+  display: flex;
+ 
+  border: 1px solid salmon
+  
+  
+}
+
+.message {
+  border:1px solid rgb(180, 13, 174);
+}
 
 
