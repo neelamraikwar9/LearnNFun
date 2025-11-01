@@ -14,8 +14,7 @@ const LandingPage = () => {
             Discover How We Enhance Your English Communication Skills
           </h1>
           <p className="midp1">
-            Broaden your knowledge network to break free from life's
-            constraints.{" "}
+            "Expand your learning circle to get rid of contraction in life."{" "}
           </p>
           <button className="midBtn">Learn More</button>
         </div>
@@ -66,7 +65,7 @@ const LandingPage = () => {
 
         <div className="iniContainer">
           <h1 className="textHead initiator">
-            Meet a Few of Our Community Members
+            Meet a Few of Our Team Members
           </h1>
 
           <div className="iniContainer  teContainer">
@@ -74,7 +73,7 @@ const LandingPage = () => {
               <div className="">
                 <img
                   src="https://res.clodinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
-                  alt="Shubham Pandey"
+                  alt="img"
                   className="Sh"
                 />
               </div>
@@ -87,7 +86,7 @@ const LandingPage = () => {
               <div className="">
                 <img
                   src="https://res.clodinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
-                  alt="Shubham Pandey"
+                  alt="img"
                   className="Sh"
                 />
               </div>
@@ -100,7 +99,7 @@ const LandingPage = () => {
               <div className="">
                 <img
                   src="https://res.clodinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
-                  alt="Shubham Pandey"
+                  alt=""
                   className="Sh"
                 />
               </div>
@@ -113,7 +112,7 @@ const LandingPage = () => {
               <div className="">
                 <img
                   src="https://res.cldinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
-                  alt="Shubham Pandey"
+                  alt=""
                   className="Sh"
                 />
               </div>
@@ -126,7 +125,7 @@ const LandingPage = () => {
               <div className="">
                 <img
                   src="https://res.clodinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
-                  alt="Shubham Pandey"
+                  alt=""
                   className="Sh"
                 />
               </div>
@@ -201,7 +200,23 @@ const LandingPage = () => {
                 next level.
               </p>
             </div>
+            <div className="schBtnCon">
+            <button className=" scheduleBtn midBtn">Schedule Detail</button>
             </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+        <div>
+          <div>
+            <h1>wondering to join?</h1>
+            
           </div>
         </div>
       </div>
