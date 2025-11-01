@@ -18,18 +18,18 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="liStyl">
-                <NavLink to="" className="liText">
+                <NavLink to="/about" className="liText">
                   About
                 </NavLink>
               </li>
               <li className="liStyl">
-                <NavLink to="" className="liText">
+                <NavLink to="/members" className="liText">
                   Member
                 </NavLink>
               </li>
 
               <li className="liStyl">
-                <NavLink to="" className="liText">
+                <NavLink to="/schedule" className="liText">
                   Schedule
                 </NavLink>
               </li>
@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <button className="joinUs">Join us!</button>
+        <NavLink to="/join"><button className="joinUs">Join us!</button></NavLink>
       </nav>
     </main>
   );

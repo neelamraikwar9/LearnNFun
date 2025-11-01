@@ -46,7 +46,7 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="iniContainer">
+        {/* <div className="iniContainer">
           <h1 className="textHead initiator">The Initiator</h1>
 
           <div className="iniCon">
@@ -134,7 +134,7 @@ const LandingPage = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="iniContainer">
           <h1 className="textHead initiator">Class Schedule</h1>
