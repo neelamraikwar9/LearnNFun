@@ -7,11 +7,15 @@ import About from './pages/About';
 import JoinUs from './pages/JoinUs';
 import Member from './pages/Member';
 import Schedule from './pages/Schedule';
+import Navbar from './components/Navbar';
 
 function App() {
   
   return (
     <>
+    <div className="navbar">
+    <Navbar/>
+    </div>
       <Routes>
       <Route path="/" element={<LandingPage/>}></Route>
       <Route path="/about" element={<About/>}></Route>

@@ -6,7 +6,7 @@ const LandingPage = () => {
     <main className="body">
       <div className="background">
         <div className="navbar">
-          <Navbar />
+          {/* <Navbar /> */}
         </div>
 
         <div className="lines">
