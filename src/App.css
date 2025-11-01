@@ -176,7 +176,7 @@
 }
 
 .imgCon {
-  width: 40rem;
+  width: 35rem;
   height: 40rem;
   border-radius: 2rem;
   border: 1px solid greenyellow;
@@ -277,7 +277,7 @@
 
 .sceduleCon{
   display: flex;
-  padding-left: 20rem;
+  padding-left: 18rem;
   border:1px solid rgb(47, 168, 255);
   
 
@@ -287,7 +287,7 @@
   border: 1px solid rgb(252, 2, 190);
   padding: 2rem;
   width: 40rem;
-  height: 40rem;
+  height: 43rem;
   display: flex;
 
   flex-direction: column;
