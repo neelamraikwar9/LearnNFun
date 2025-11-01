@@ -32,7 +32,7 @@ const LandingPage = () => {
             <h1 className="textHead">Our Vibrant English Community</h1>
             <p className="miss">
               At Learn 'N' Fun, we're on a mission to revolutionize English
-              communication through interactive and engaging classes.
+              communication with General Awareness through interactive and engaging classes.
             </p>
             <br />
             <br />
@@ -46,98 +46,38 @@ const LandingPage = () => {
           </div>
         </div>
 
-        {/* <div className="iniContainer">
-          <h1 className="textHead initiator">The Initiator</h1>
+        <div className="iniContainer">
+          <h1 className="textHead  headText">ENGLISH FLUENCY {""} <span style={{color: 'white'}}>THROUGH</span> CONVERSATION </h1>
 
           <div className="iniCon">
             <div className="iniImg">
-              <img
-                src="https://res.cloudinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
-                alt="Shubham Pandey"
-                className="Sh"
-              />
+             <h1>Outcomes:</h1>
+              <p>✔️Soft Skills</p>
+              <p>✔️Communication Skills</p>
+            <p>✔️Leadership Development</p>
+            <p>✔️General Awareness</p>
             </div>
             <div className="iniName">
-              <h2>Shubham Pandey</h2>
+              <h1>Facilities:</h1>
+              <p>
+              ✔️Access To All Grammer Materials
+            </p>
+            <p >
+              ✔️Access To More Than 100 Life Changing Novels
+            </p>
+            <p>✔️Virtual Learning Environment</p>
+            <p >
+              ✔️Interaction With People From Various Aspect Of Life
+            </p>
             </div>
           </div>
         </div>
 
-        <div className="iniContainer">
-          <h1 className="textHead initiator">
-            Meet a Few of Our Team Members
-          </h1>
+        
 
-          <div className="iniContainer  teContainer">
-            <div className="teCon">
-              <div className="">
-                <img
-                  src="https://res.clodinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
-                  alt="img"
-                  className="Sh"
-                />
-              </div>
-              <div className="teAbout">
-                <h2>person name</h2>
-              </div>
-            </div>
-
-            <div className="teCon">
-              <div className="">
-                <img
-                  src="https://res.clodinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
-                  alt="img"
-                  className="Sh"
-                />
-              </div>
-              <div className="teAbout">
-                <h2>person name</h2>
-              </div>
-            </div>
-
-            <div className="teCon">
-              <div className="">
-                <img
-                  src="https://res.clodinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
-                  alt=""
-                  className="Sh"
-                />
-              </div>
-              <div className="teAbout">
-                <h2>person name</h2>
-              </div>
-            </div>
-
-            <div className="teCon">
-              <div className="">
-                <img
-                  src="https://res.cldinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
-                  alt=""
-                  className="Sh"
-                />
-              </div>
-              <div className="teAbout">
-                <h2>person name</h2>
-              </div>
-            </div>
-
-            <div className="teCon">
-              <div className="">
-                <img
-                  src="https://res.clodinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
-                  alt=""
-                  className="Sh"
-                />
-              </div>
-              <div className="teAbout">
-                <h2>person name</h2>
-              </div>
-            </div>
-          </div>
-        </div> */}
 
         <div className="iniContainer">
-          <h1 className="textHead initiator">Class Schedule</h1>
+          <h1 className="textHead headText" style={{color: 'white', paddingLeft:'35rem'}}>Schedule</h1>
           <div className="sceduleCon">
           <div className="attendUsContainer">
             <h1>Attend Us!</h1>
