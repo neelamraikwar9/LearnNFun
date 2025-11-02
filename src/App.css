@@ -93,7 +93,6 @@
 
 .background {
   /* position: static; */
-  /* width: 67.8rem; */
   width: 79rem;
   height: 60rem;
   background: url("/images/img.png");
@@ -170,6 +169,7 @@
   border: 1px solid red;
   padding: 2rem;
   display: flex;
+  width: 79rem;
 
   
 
