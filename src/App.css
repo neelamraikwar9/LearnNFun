@@ -157,28 +157,29 @@
 }
 
 
-.container {
+/* .container {
   background-color: black;
-  /* margin-top: 20rem; */
-  border: 1px solid red;
-  /* padding: 2rem; */
   
-}
+  border: 1px solid red;
+  box-sizing: border-box;
+
+  
+} */
 
 .vibrantCon {
+   display: flex;
+  flex-wrap: wrap;
   border: 1px solid red;
   padding: 2rem;
-  display: flex;
+  /* width: 10%; */
+ 
   /* width: 79rem; */
-
-  
-
 }
 
 .imgCon {
-  width: 35%;
-  /* width: 35vw; */
-  height: 40rem;
+  width: 40%;
+  max-width: rem;
+  height: auto;
   border-radius: 2rem;
   border: 1px solid greenyellow;
 }

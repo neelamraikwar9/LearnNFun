@@ -73,6 +73,9 @@ button:focus-visible {
   padding: 0rem;
   box-sizing: border-box;
   background-color: black;
+  /* width: 100%; */
+  width: 180vh;
+    
 }
 
 body {
