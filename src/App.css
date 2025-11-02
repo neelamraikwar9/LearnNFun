@@ -176,7 +176,8 @@
 }
 
 .imgCon {
-  width: 35rem;
+  width: 35%;
+  /* width: 35vw; */
   height: 40rem;
   border-radius: 2rem;
   border: 1px solid greenyellow;
