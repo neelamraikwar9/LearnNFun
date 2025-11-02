@@ -69,12 +69,12 @@ button:focus-visible {
 
 #root {
   
-  margin: 0 rem;
+  margin: 0rem;
   padding: 0rem;
   box-sizing: border-box;
   background-color: black;
   /* width: 100%; */
-  width: 180vh;
+  width: 217vh;
     
 }
 
