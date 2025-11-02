@@ -17,7 +17,7 @@
     margin-top: 15rem; 
     display: flex;
     flex-direction: column;
-    width: 78rem;
+    width: 75rem;
     align-items: center;
 }
 
@@ -28,20 +28,37 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    background-color: rgb(3, 3, 43);
+    border-radius: 1rem;
 }
 
 .field {
     font-size: 1.9rem;
-    border: 1px solid rgb(238, 11, 86);
+    /* border: 1px solid rgb(238, 11, 86); */
     padding: 1rem;
     display: flex;
     gap: 1rem;
 }
 
+.inp {
+    font-size: 1.5rem;
+    font-family: cursive;
+    border-radius: 0.5rem;
+    color:rgb(31, 63, 244);
+}
+
+.sel {
+    font-size: 1.5rem;
+    font-family: cursive;
+    border-radius: 0.5rem;
+    color:rgb(31, 63, 244);
+}
+
 .btn {
     display: flex;
     justify-content: center;
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
+    
 
 }
 
@@ -50,4 +67,16 @@
     padding: 0.9rem;
     font-size: large;
     font-weight: 100;
+    background-color: greenyellow;
+    border-radius: 1rem; 
+}
+
+.subBtn:hover{
+    background-color: oklch(86.142% 0.25495 136.005);
+}
+
+
+
+.formHeadText {
+    font-size: 4rem;
 }

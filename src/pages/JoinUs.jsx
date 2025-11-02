@@ -63,48 +63,48 @@ const JoinUs = () => {
   return (
     <main className='mainFormCon'>
     <div className="wholeFormCon">
-      <h1 className="formHead">Fill the Form to Join</h1>
+      <h1 className="formHeadText">Fill the Form to Join</h1>
       <form onSubmit={handleSubmit} className="formCon">
         <div className='field'>
         <label htmlFor="nam">Name</label>
-        <input type="text" id="nam" name="name" value={form.name} onChange={handleOnChange}/>
+        <input type="text" id="nam" name="name" value={form.name} onChange={handleOnChange} className="inp"/>
         </div>
 
         <div className='field'>
         <label htmlFor="em">Email</label>
-        <input type="text" id="em" name="email" value={form.email} onChange={handleOnChange}/>
+        <input type="text" id="em" name="email" value={form.email} onChange={handleOnChange} className="inp"/>
         </div>
 
 
          <div className='field'>
         <label htmlFor="cont">Contact Number</label>
-        <input type="text" id="cont" name="contactNumber" value={form.contactNumber} onChange={handleOnChange}/>
+        <input type="text" id="cont" name="contactNumber" value={form.contactNumber} onChange={handleOnChange} className="inp"/>
         </div>
 
         <div className='field'>
         <label htmlFor="cit">City</label>
-        <input type="text" id="cit" name="city" value={form.city} onChange={handleOnChange}/>
+        <input type="text" id="cit" name="city" value={form.city} onChange={handleOnChange} className="inp"/>
         </div>
 
          <div className='field'>
         <label htmlFor="occ">Occupation </label>
-        <input type="text" id="occ" name="occupation" value={form.occupation} onChange={handleOnChange}/>
+        <input type="text" id="occ" name="occupation" value={form.occupation} onChange={handleOnChange} className="inp"/>
         </div>
 
 
          <div className='field'>
         <label htmlFor="qul">Qualification </label>
-        <input type="text" id="qul" name="qualification" value={form.qualification} onChange={handleOnChange}/>
+        <input type="text" id="qul" name="qualification" value={form.qualification} onChange={handleOnChange} className="inp"/>
         </div>
 
          <div className='field'>
         <label htmlFor="pur">Purpose</label>
-        <input type="text" id="pur" name="purpose" value={form.purpose} onChange={handleOnChange}/>
+        <input type="text" id="pur" name="purpose" value={form.purpose} onChange={handleOnChange} className="inp"/>
         </div>
 
         <div className='field'>
           <label htmlFor="dur">Duration</label>
-          <select id="dur" name="duration" value={form.duration} onChange={handleOnChange}>
+          <select id="dur" name="duration" value={form.duration} onChange={handleOnChange} className="sel">
             <option value="One month">One month</option>
             <option value="Two month">Two month</option>
             <option value="Three month">Three month</option>
