@@ -1,7 +1,7 @@
 .mainFormCon {
     border: 1px solid red;
     color:white;
-    /* width: 100% */
+    width: 90%
 }
 
 /* .formContainer {
@@ -17,7 +17,7 @@
     margin-top: 15rem; 
     display: flex;
     flex-direction: column;
-    width: 75rem;
+    width: 76.9rem;
     align-items: center;
 }
 
@@ -35,7 +35,7 @@
 .field {
     font-size: 1.9rem;
     /* border: 1px solid rgb(238, 11, 86); */
-    padding: 1rem;
+    /* padding: 1rem; */
     display: flex;
     gap: 1rem;
 }
