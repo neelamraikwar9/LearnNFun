@@ -77,7 +77,7 @@ const LandingPage = () => {
 
 
         <div className="iniContainer">
-          <h1 className="textHead headText" style={{color: 'white', paddingLeft:'35rem'}}>Schedule</h1>
+          <h1 className="textHead headText" style={{color: 'white', paddingLeft:'33rem'}}>Schedule</h1>
           <div className="sceduleCon">
           <div className="attendUsContainer">
             <h1>Attend Us!</h1>
