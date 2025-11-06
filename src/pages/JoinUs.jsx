@@ -31,7 +31,7 @@ const JoinUs = () => {
     console.log(res.data,  "Details added successfully");
 
     toast.success("Details added successfully", {
-      autoClose : 3000
+      autoClose : 5000
     });
 
 
@@ -78,7 +78,7 @@ const JoinUs = () => {
 
          <div className='field'>
         <label htmlFor="cont">Contact Number</label>
-        <input type="text" id="cont" name="contactNumber" value={form.contactNumber} onChange={handleOnChange} className="inp"/>
+        <input type="number" id="cont" name="contactNumber" value={form.contactNumber} onChange={handleOnChange} className="inp"/>
         </div>
 
         <div className='field'>
