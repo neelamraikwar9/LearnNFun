@@ -1,7 +1,7 @@
 .mainFormCon {
     border: 1px solid red;
     color:white;
-    width: 90%
+    width: 59.7%
 }
 
 /* .formContainer {
@@ -42,7 +42,7 @@
 
 .inp {
     font-size: 1.5rem;
-    font-family: cursive;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 0.5rem;
     color:rgb(31, 63, 244);
 }
