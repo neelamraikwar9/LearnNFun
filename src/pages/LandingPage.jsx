@@ -1,5 +1,6 @@
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
   return (
@@ -16,7 +17,9 @@ const LandingPage = () => {
           <p className="midp1">
             "Expand your learning circle to get rid of contraction in life."{" "}
           </p>
+          <Link to="/about">
           <button className="midBtn">Learn More</button>
+          </Link>
         </div>
       </div>
       <br />
@@ -141,7 +144,9 @@ const LandingPage = () => {
               </p>
             </div>
             <div className="schBtnCon">
+            <Link to="/schedule">
             <button className=" scheduleBtn midBtn">Schedule Detail</button>
+            </Link>
             </div>
             </div>
           </div>
