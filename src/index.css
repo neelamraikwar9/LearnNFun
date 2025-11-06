@@ -75,12 +75,15 @@ button:focus-visible {
   background-color: black;
   /* width: 100%; */
   /* width: 217vh; */
-  width: 218.6vh;
-  /* height: 480vh; */
+  width: 283vh;
+  /* height: 480vh; */   
   
-
-    
 }
+
+
+/* @media (min-width: ) {
+
+} */
 
 body {
   margin:0;
