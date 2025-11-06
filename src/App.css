@@ -170,15 +170,15 @@
    display: flex;
   flex-wrap: wrap;
   border: 1px solid red;
-  padding: 1rem;
-  width: 58%;
+  padding: 2rem;
+  /* width: 10%; */
  
   /* width: 79rem; */
 }
 
 .imgCon {
-  width: 50%;
-  /* padding-left: 1rem; */
+  width: 40%;
+  max-width: rem;
   height: auto;
   border-radius: 2rem;
   border: 1px solid greenyellow;
@@ -208,8 +208,6 @@
   color: aliceblue;
    border: 1px solid rgb(47, 168, 255);
    margin-top: 10rem;
-   width: 59%;
-   padding: 0.1rem;
 }
 
 .initiator {
@@ -257,7 +255,7 @@
 
 .teContainer {
    border: 1px solid rgb(180, 13, 174);
-   padding: 0rem 4rem;
+   padding: 0rem 3rem;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
