@@ -169,12 +169,12 @@
   flex-wrap: wrap;
   border: 1px solid red;
   padding: 2rem;
-  width: 75rem;
+  width: 74rem;
 }
 
 .imgCon {
-  width: 40%;
-  max-width: rem;
+  width: 50%;
+  /* max-width: rem; */
   height: auto;
   border-radius: 2rem;
   border: 1px solid greenyellow;
@@ -184,7 +184,7 @@
   color: whitesmoke;
   border: 1px solid greenyellow;
   width: 30rem;
-  padding: 1rem;
+  /* padding: 1rem; */
   padding-top: 4rem;
   margin: 2rem;
   padding-left: 2rem;
@@ -230,8 +230,8 @@
    padding-left: 5rem;
    margin-left: 5rem;
    /* justify-content: space-between; */
-   gap: 3rem;
-   width: 55rem;
+   gap: 2rem;
+   width: 60rem;
 }
 
 .iniImg {
@@ -257,6 +257,7 @@
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: space-around;
+   
 
   
 }
@@ -286,7 +287,7 @@
   border: 1px solid rgb(252, 2, 190);
   padding: 2rem;
   width: 40rem;
-  height: 43rem;
+  height: auto;
   display: flex;
 
   flex-direction: column;
