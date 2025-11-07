@@ -1,16 +1,14 @@
 
 
 .navContainer {
-  /* Background-color:rgb(219, 213, 213); */
-  /* background-color: black; */
   background-color: rgb(38, 38, 38);;
   height: 5rem; 
   padding: 1rem 1.9rem; 
   margin-top: 1rem; 
-  /* position: fixed;  */
+  position: fixed; 
   width: 75.2rem; 
   border-radius: 5rem;
-  /* padding: */
+  
 }
 
 .navBar{
@@ -46,7 +44,7 @@
   padding:1rem 1rem;
   font-size: 1.5rem;
   
-  background-color: greenyellow;
+  background-color: var(--primary-color);
   
   font-style: none;
  
@@ -143,7 +141,7 @@
 
 .midBtn {
 
-  background-color:  greenyellow;
+  background-color:  var(--primary-color);
  
   padding: 2rem;
   border-radius: 3rem;
@@ -171,7 +169,7 @@
   flex-wrap: wrap;
   border: 1px solid red;
   padding: 2rem;
-  width: 74rem;
+  width: 7rem;
 }
 
 .imgCon {

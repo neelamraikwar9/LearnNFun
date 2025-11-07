@@ -1,16 +1,21 @@
-/* :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+:root {
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #070707;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+}
+
+:root {
+  --primary-color: #6bf253;
 }
 
 a {
@@ -19,8 +24,11 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--primary-color);
+  text-decoration-line: underline;
 }
+
+
 
 body {
   margin: 0;
@@ -65,29 +73,27 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-} */
+}
 
 #root {
   
   margin: 0rem;
   padding: 0rem;
   box-sizing: border-box;
-  background-color: black;
-  /* width: 100%; */
+  /* background-color: black; */
+  width: 100%;
   /* width: 217vh; */
-  width: 298vh;
+  /* width: 298vh; */
     
   
 }
 
 
-/* @media (min-width: ) {
+/* @media (min-width: 900%) {
+  body{
+    background-color: black;
+  }
 
 } */
 
-body {
-  margin:0;
-  padding:0;
-  /* background-color: black; */
 
-}
