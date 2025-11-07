@@ -7,14 +7,14 @@ const About = () => {
 
           <div className="iniCon">
             <div className="iniImg">
-              <img
+              {/* <img
                 src="https://res.cloudinary.com/dltfnhclh/image/upload/v1761490034/Untitled_design_1_vdzi09.png"
                 alt="Shubham Pandey"
                 className="Sh"
-              />
+              /> */}
             </div>
             <div className="iniName">
-              <h2>Shubham Pandey</h2>
+              {/* <h2>Shubham Pandey</h2> */}
             </div>
           </div>
         </div>
