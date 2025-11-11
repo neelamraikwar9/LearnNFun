@@ -349,3 +349,8 @@
   padding-left: 4rem;
   border:1px solid rgb(180, 13, 174);
 }
+
+.headStyle {
+  color: white;
+  padding-left:33rem;
+}

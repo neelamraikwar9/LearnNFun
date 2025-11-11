@@ -80,9 +80,9 @@ const LandingPage = () => {
 
 
         <div className="iniContainer">
-          <h1 className="textHead headText" style={{color: 'white', paddingLeft:'33rem'}}>Schedule</h1>
+          <h1 className="textHead headText headStyle">Schedule</h1>
           <div className="sceduleCon">
-          <div className="attendUsContainer">
+          <div className="attendUsContainer">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
             <h1>Attend Us!</h1>
             <div className="attendUsCon">
               <div className="schBox">
@@ -158,9 +158,13 @@ const LandingPage = () => {
 
 
 
-        <div>
-          <div>
-            <h1>wondering to join?</h1>
+        <div className="iniContainer">
+          
+            <h1 className="textHead headText headStyle" style={{paddingLeft: '27rem'}}>Wondering to join?</h1>
+            <div className="sceduleCon">
+            <div className="attendUsContainer">
+              <h1> FAQs</h1>
+            </div>
             
           </div>
         </div>
