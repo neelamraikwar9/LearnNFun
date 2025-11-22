@@ -24,11 +24,12 @@
   color: rgb(253, 253, 254);
   border: 1px solid red;
   text-decoration: none;
-  margin-top: 1rem;
   font-size: 2rem;
   font-weight:bolder;
-  margin-left: 1.5rem;
-  padding-left: 4rem;
+  display: flex;
+  height: 5rem;
+
+  
 
 }
 
