@@ -1,8 +1,25 @@
-// import Navbar from "../components/Navbar";
+import './landing.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 const LandingPage = () => {
+  const [attend, setAttend] = useState(false);
+  const [expect, setExpect] = useState(false);
+  const [leads, setLeads] = useState(false);
+
+  function attendFun(){
+    setAttend(!attend)
+  }
+
+  function expectFun(){
+    setExpect(!expect)
+  }
+
+  function leadsFun(){
+    setLeads(!leads)
+  }
+
   return (
     <main className="body">
       <div className="background">
@@ -164,50 +181,37 @@ const LandingPage = () => {
             <div className="sceduleCon">
             <div className="attendUsContainer">
               <h1> FAQs</h1>
+              <div className="qsContainer">
+
+              <div className="qCon">
+              <p >Who can attend these classes?</p>
+              <button onClick={attendFun} className="plsBtn">{attend ? "➖" : "➕"}</button>
+              </div>
+              {attend && <p>Our classes are open to all learners who have at least basic English-speaking ability. Whether you’re at an elementary level, improving your fluency, or already advanced and looking to refine your communication skills, everyone is welcome to join and grow with us.</p>}
+              
+             
+             <div className="qCon">
+              <p>What can I expect to learn in these classes?</p>
+              <button onClick={expectFun}>{expect ? "➖" : "➕"}</button>
+              </div>
+              {expect && <p>You’ll gain valuable insights and practical techniques to enhance your speaking skills, focusing on clarity, confidence, and effective communication. Along with improving your English, you’ll also develop better social skills, learn to communicate comfortably with different people, and build general knowledge through interactive discussions, activities, and real-life topics.</p>}
+            
+
+              <div className="qCon">
+              <p>Who leads these classes?</p>
+              <button onClick={leadsFun}>{attend ? "➖" : "➕"}</button>
+               </div>
+              {leads && <p>Our classes are led by active LNF members who have been practicing English in the community for 5-6 months or more. They have gained enough confidence and experience to guide sessions, lead activities, and support other learners. They are not professional teachers, but enthusiastic learners who grow together with the community.</p>}
+             
+
+              </div>
             </div>
             
           </div>
         </div>
       </div>
 
-      {/* <div className="bigContainer">
-        <div className="missionStatement">
-          <h1 className="statement">
-            <span style={{ color: "red" }}> Learn </span>{" "}
-            <span style={{ color: "black" }}>'N'</span>
-            <span>Fun</span>
-          </h1>
-        </div>
-        <div className="missionStatement">
-          <h1 className="statement">
-            ENGLISH FLUENCY <span style={{ color: "red" }}>THROUGH </span>
-            CONVERSATION
-          </h1>
-        </div>
-        <div style={{ display: "flex", justifyContent: "space-around" }}>
-          <div style={{ border: "1px solid red" }}>
-            <h2>Outcomes:</h2>
-            <p style={{ margin: "0.5rem" }}>✔️Soft Skills</p>
-            <p style={{ margin: "0.5rem" }}>✔️Communication Skills</p>
-            <p style={{ margin: "0.5rem" }}>✔️Leadership Development</p>
-            <p style={{ margin: "0.5rem" }}>✔️General Awareness</p>
-          </div>
-
-          <div style={{ border: "1px solid red" }}>
-            <h2>Facilities:</h2>
-            <p style={{ margin: "0.5rem" }}>
-              ✔️Access To All Grammer Materials
-            </p>
-            <p style={{ margin: "0.5rem" }}>
-              ✔️Access To More Than 100 Life Changing Novels
-            </p>
-            <p style={{ margin: "0.5rem" }}>✔️Virtual Learning Environment</p>
-            <p style={{ margin: "0.5rem" }}>
-              ✔️Interaction With People From Various Aspect Of Life
-            </p>
-          </div>
-        </div>
-      </div> */}
+    
     </main>
   );
 };

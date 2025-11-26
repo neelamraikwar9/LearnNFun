@@ -1,0 +1,16 @@
+.qsContainer {
+    border: 1px solid blue; 
+    display: flex; 
+    flex-direction: column;
+}
+
+.qCon {
+    display: flex; 
+    gap: 1rem;
+}
+
+.plsBtn {
+    /* padding: 0.1rem 0.5rem; */
+    padding: 0rem;
+    /* height: 0.5rem */
+}
