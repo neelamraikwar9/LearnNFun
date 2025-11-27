@@ -171,6 +171,8 @@
   border: 1px solid red;
   padding: 2rem;
   width: 74rem;
+  margin-top: 2rem;
+  background-color: oklch(21% 0.034 264.665);
 }
 
 .imgCon {
@@ -231,7 +233,7 @@
    padding: 3rem;
    padding-left: 5rem;
    margin-left: 5rem;
-   /* justify-content: space-between; */
+   background-color: oklch(21% 0.034 264.665);
    gap: 1rem;
    width: 60rem;
 }
@@ -295,8 +297,8 @@
   flex-direction: column;
  
   border-radius: 2rem;
-   /* background-color: oklch(26.9% 0 0); */
-   background-color: oklch(21% 0.006 285.885);
+   
+  background-color: oklch(21% 0.034 264.665);
 }
 
 

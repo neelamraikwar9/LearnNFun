@@ -8,6 +8,7 @@ import JoinUs from './pages/JoinUs';
 import Schedule from './pages/Schedule';
 import Navbar from './components/Navbar';
 import { ToastContainer, toast } from 'react-toastify';
+import Footer from './components/Footer';
 
 function App() {
   
@@ -23,6 +24,9 @@ function App() {
       <Route path="/schedule" element={<Schedule/>}></Route>
       </Routes>
        <ToastContainer />
+       <div>
+        <Footer/>
+       </div>
       
     </>
   )

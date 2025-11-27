@@ -212,9 +212,18 @@ const LandingPage = () => {
 
         <div className="iniContainer">
           <h1 className="textHead headText headStyle"
-          //  style={{paddingLeft: '2rem'}}
+           style={{paddingLeft: '30rem'}}
            >Testimonials</h1>
+
+
         </div>
+
+
+
+
+
+
+      
       </div>
 
     
