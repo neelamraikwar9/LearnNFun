@@ -202,12 +202,18 @@ const LandingPage = () => {
               <button onClick={leadsFun} className="plsBtn">{leads ? "➖" : "➕"}</button>
                </div>
               {leads && <p className="ans">Our classes are led by active LNF members who have been practicing English in the community for 5-6 months or more. They have gained enough confidence and experience to guide sessions, lead activities, and support other learners. They are not professional teachers, but enthusiastic learners who grow together with the community.</p>}
-             
-
               </div>
             </div>
             
           </div>
+        </div>
+
+
+
+        <div className="iniContainer">
+          <h1 className="textHead headText headStyle"
+          //  style={{paddingLeft: '2rem'}}
+           >Testimonials</h1>
         </div>
       </div>
 
