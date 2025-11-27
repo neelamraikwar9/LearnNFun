@@ -71,14 +71,14 @@ const LandingPage = () => {
 
           <div className="iniCon">
             <div className="iniImg">
-             <h1>Outcomes</h1>
+             <h1 className="textHead">Outcomes</h1>
               <p>✔️Soft Skills</p>
               <p>✔️Communication Skills</p>
             <p>✔️Leadership Development</p>
             <p>✔️General Awareness</p>
             </div>
             <div className="iniName">
-              <h1>Facilities</h1>
+              <h1  className="textHead">Facilities</h1>
               <p>
               ✔️Access To All Grammer Materials
             </p>

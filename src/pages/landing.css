@@ -10,14 +10,14 @@
 }
 
 .plsBtn {
-    
-    height: 2.5rem
+    height: 2.5rem;
+    margin-top: 0.7rem;
 }
 
 .ques {
     font-size: 1.6rem;
     font-weight: bold;
-    margin: 0; 
+    margin: 0.8rem; 
 }
 
 .ans {
