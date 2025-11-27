@@ -71,14 +71,14 @@ const LandingPage = () => {
 
           <div className="iniCon">
             <div className="iniImg">
-             <h1>Outcomes:</h1>
+             <h1>Outcomes</h1>
               <p>✔️Soft Skills</p>
               <p>✔️Communication Skills</p>
             <p>✔️Leadership Development</p>
             <p>✔️General Awareness</p>
             </div>
             <div className="iniName">
-              <h1>Facilities:</h1>
+              <h1>Facilities</h1>
               <p>
               ✔️Access To All Grammer Materials
             </p>
@@ -184,24 +184,24 @@ const LandingPage = () => {
               <div className="qsContainer">
 
               <div className="qCon">
-              <p >Who can attend these classes?</p>
+              <p className="ques">Who can attend these classes?</p>
               <button onClick={attendFun} className="plsBtn">{attend ? "➖" : "➕"}</button>
               </div>
-              {attend && <p>Our classes are open to all learners who have at least basic English-speaking ability. Whether you’re at an elementary level, improving your fluency, or already advanced and looking to refine your communication skills, everyone is welcome to join and grow with us.</p>}
+              {attend && <p className="ans">Our classes are open to all learners who have at least basic English-speaking ability. Whether you’re at an elementary level, improving your fluency, or already advanced and looking to refine your communication skills, everyone is welcome to join and grow with us.</p>}
               
              
              <div className="qCon">
-              <p>What can I expect to learn in these classes?</p>
-              <button onClick={expectFun}>{expect ? "➖" : "➕"}</button>
+              <p className="ques">What can I expect to learn in these classes?</p>
+              <button onClick={expectFun} className="plsBtn">{expect ? "➖" : "➕"}</button>
               </div>
-              {expect && <p>You’ll gain valuable insights and practical techniques to enhance your speaking skills, focusing on clarity, confidence, and effective communication. Along with improving your English, you’ll also develop better social skills, learn to communicate comfortably with different people, and build general knowledge through interactive discussions, activities, and real-life topics.</p>}
+              {expect && <p className="ans">You’ll gain valuable insights and practical techniques to enhance your speaking skills, focusing on clarity, confidence, and effective communication. Along with improving your English, you’ll also develop better social skills, learn to communicate comfortably with different people, and build general knowledge through interactive discussions, activities, and real-life topics.</p>}
             
 
               <div className="qCon">
-              <p>Who leads these classes?</p>
-              <button onClick={leadsFun}>{attend ? "➖" : "➕"}</button>
+              <p className="ques">Who leads these classes?</p>
+              <button onClick={leadsFun} className="plsBtn">{leads ? "➖" : "➕"}</button>
                </div>
-              {leads && <p>Our classes are led by active LNF members who have been practicing English in the community for 5-6 months or more. They have gained enough confidence and experience to guide sessions, lead activities, and support other learners. They are not professional teachers, but enthusiastic learners who grow together with the community.</p>}
+              {leads && <p className="ans">Our classes are led by active LNF members who have been practicing English in the community for 5-6 months or more. They have gained enough confidence and experience to guide sessions, lead activities, and support other learners. They are not professional teachers, but enthusiastic learners who grow together with the community.</p>}
              
 
               </div>

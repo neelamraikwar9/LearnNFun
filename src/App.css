@@ -206,6 +206,7 @@
    border: 1px solid rgb(47, 168, 255);
    margin-top: 10rem;
    width: 78rem;
+
 }
 
 .initiator {
@@ -294,6 +295,8 @@
   flex-direction: column;
  
   border-radius: 2rem;
+   /* background-color: oklch(26.9% 0 0); */
+   background-color: oklch(21% 0.006 285.885);
 }
 
 
