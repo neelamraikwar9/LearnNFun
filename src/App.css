@@ -241,35 +241,43 @@
 .iniImg {
    border: 1px solid rgb(136, 172, 83);
    display: flex;
-   flex-direction: column;
+   justify-content: center;
    font-size: 1.5rem;
+}
 
-   
+.outComesCon {
+  border: 1px solid rgb(136, 172, 83);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-size: 1.5rem;
 }
 
 .iniName {
    border: 1px solid rgb(136, 172, 83);
    display: flex;
    flex-direction: column;
+   align-items: center;
    font-size: 1.5rem;
 }
 
 .teContainer {
    border: 1px solid rgb(180, 13, 174);
-   padding: 0rem 3rem;
+   /* padding: 0rem 3rem; */
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: space-around;
-   
-
+   width: 78rem;
+   margin-top: 0
   
 }
 
 
 .teCon {
    border: 1px solid rgb(136, 172, 83);
-   padding: 1rem;
+   /* padding: 1rem; */
+   margin-top: 0;
   
 }
 

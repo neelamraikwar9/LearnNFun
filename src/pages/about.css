@@ -1,0 +1,9 @@
+.imgCon {
+    /* display: flex;  */
+    flex-direction: column;
+    gap: 0; 
+}
+
+.ss {
+    width: 70rem;
+}

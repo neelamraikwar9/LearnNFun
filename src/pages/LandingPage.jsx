@@ -70,7 +70,7 @@ const LandingPage = () => {
           <h1 className="textHead  headText">ENGLISH FLUENCY {""} <span style={{color: 'white'}}>THROUGH</span> CONVERSATION </h1>
 
           <div className="iniCon">
-            <div className="iniImg">
+            <div className="outComesCon">
              <h1 className="textHead">Outcomes</h1>
               <p>✔️Soft Skills</p>
               <p>✔️Communication Skills</p>
