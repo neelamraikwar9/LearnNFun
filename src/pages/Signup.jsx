@@ -17,7 +17,7 @@ const Signup = () => {
   async function handleSignUpSubmit(e) {
     e.preventDefault();
 
-    const res = await fetch("http://localhost:9000/api/signup", {
+    const res = await fetch("https://lnf-backend.vercel.app/api/signup", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name, email, password }),
