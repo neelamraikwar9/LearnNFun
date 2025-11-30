@@ -15,8 +15,10 @@ const About = () => {
               />
             </div>
             <div className="iniName">
-              <h2>Shubham Pandey</h2>
-              <p>LNF was created by Shubham, a dedicated learner who believed that everyone deserves a safe and friendly space to practice English. Starting with just a small group, Shubham's vision grew into a vibrant community where people support each other, learn together, and build confidence step by step. Shubham's mission is simple — to help learners grow, connect, and speak freely without fear.</p>
+              <h2>Mr. Shubham Pandey</h2>
+              <p>LNF was created by Mr. Shubham 
+              {/* and a few others */}
+               on 18 March 2023, with a shared hope of coming together to improve their English. He is a dedicated learner who believed that everyone deserves a safe and friendly space to practice English. Starting with just a small group, Shubham's vision grew into a vibrant community where people support each other, learn together, and build confidence step by step. Shubham's mission is simple — to help learners grow, connect, and speak freely without fear.</p>
             </div>
           </div>
         </div>

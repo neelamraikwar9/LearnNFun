@@ -34,6 +34,12 @@ const Navbar = () => {
                   Schedule
                 </NavLink>
               </li>
+
+              <li className="liStyl">
+                <NavLink to="/chatbot" className="liText">
+                  Chatbot
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>
