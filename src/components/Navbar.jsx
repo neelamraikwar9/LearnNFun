@@ -14,7 +14,7 @@ const Navbar = () => {
           <div>
             <ul className="navItemCon">
               <li className="liStyl">
-                <NavLink to="" className="liText">
+                <NavLink to="/landing" className="liText">
                   Home
                 </NavLink>
               </li>

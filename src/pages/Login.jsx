@@ -1,0 +1,131 @@
+import "./login.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import { useState } from "react";
+import { useAuth } from "../context/AuthContext";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+const Login = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const { login } = useAuth();
+  const navigate = useNavigate();
+  const [visible, setVisible] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const response = await fetch("http://localhost:9000/api/login", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ email, password }),
+    });
+
+    const data = await response.json();
+    console.log(data);
+
+    if (data.token) {
+      login(data.token);
+      navigate("/landing"); // Success, go to landing page
+      toast.success("You are logged in successfully.");
+    } else {
+      toast.error("Invalid Email and Password!");
+    }
+  };
+
+  function handleEyeClick() {
+    setVisible((visible) => !visible);
+  }
+
+  return (
+    <main>
+      <h2 className="textCenter workasana">Workasana</h2>
+      <div className="loginCon">
+        <h3 className="textCenter">Log in to your account</h3>
+        <p className="textCenter">Please enter your details</p>
+
+        <div className="fields">
+          <form onSubmit={handleSubmit}>
+            <div className="inpField">
+              <label
+                htmlFor="em"
+                className="lable"
+                style={{ marginRight: "11rem" }}
+              >
+                Email
+              </label>
+              <br />
+              <input
+                type="email"
+                placeholder="Enter your Email"
+                id="em"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="inpFont"
+              />
+            </div>
+
+            <div className="inpField">
+              <label htmlFor="pass" className="lable">
+                Password
+              </label>
+              <br />
+              <div className="password">
+                <input
+                  type={visible ? "text" : "password"}
+                  placeholder="Password"
+                  id="pass"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  className="inpFont"
+                />
+                <button
+                  type="button"
+                  onClick={handleEyeClick}
+                  className="eyeBtn"
+                >
+                  {visible ? (
+                    <i
+                      className="bi bi-eye"
+                      style={{
+                        position: "absolute",
+                        right: "0.1rem",
+                        margin: "0.1rem",
+                        bottom: "0.1rem",
+                      }}
+                    ></i>
+                  ) : (
+                    <i
+                      className="bi bi-eye-slash"
+                      style={{
+                        position: "absolute",
+                        right: "0.1rem",
+                        bottom: "0.1rem",
+                        margin: "0.1rem",
+                      }}
+                    ></i>
+                  )}
+                </button>
+              </div>
+            </div>
+
+            <div className="btnCon">
+              <button className="btn" type="submit">
+                Sign in
+              </button>
+            </div>
+
+            <Link to="/sign-up">
+              <p>Not registered? Sign up now.</p>
+            </Link>
+          </form>
+        </div>
+      </div>
+    </main>
+  );
+};
+
+export default Login;
