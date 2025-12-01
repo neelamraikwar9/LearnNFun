@@ -1,12 +1,14 @@
 import './landing.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 
 const LandingPage = () => {
   const [attend, setAttend] = useState(false);
   const [expect, setExpect] = useState(false);
   const [leads, setLeads] = useState(false);
+  const [testimonials, setTestimonials] = useState([]);
 
   function attendFun(){
     setAttend(!attend)
@@ -19,6 +21,23 @@ const LandingPage = () => {
   function leadsFun(){
     setLeads(!leads)
   }
+
+  const fetchTestimonials =  async () => {
+    try{
+      const res = await axios.get("https://lnf-backend.vercel.app/testimonials");
+      console.log(res.data, "res");
+      setTestimonials(res.data);
+
+
+    } catch(error){
+      throw error; 
+      
+    }
+  }
+
+  useEffect(() => {
+    fetchTestimonials();
+  }, []);
 
   return (
     <main className="body">
@@ -214,6 +233,12 @@ const LandingPage = () => {
           <h1 className="textHead headText headStyle"
            style={{paddingLeft: '30rem'}}
            >Testimonials</h1>
+
+           {testimonials.map((test) => {
+            <div>
+              <p>{test.name}</p>
+            </div>
+           })}
 
 
         </div>
