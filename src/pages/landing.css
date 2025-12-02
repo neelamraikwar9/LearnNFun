@@ -23,4 +23,32 @@
 .ans {
     font-size: 1.6rem;
     font-style: italic; 
+    margin: 0;
+    padding: 0 1rem; 
+}
+
+.testimonialCon {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;  
+    flex-wrap: wrap; 
+}
+
+.testimonialBox {
+    border: 1px solid green ;
+    padding: 1rem;
+    width: 20rem; 
+    height: 11rem;
+    margin: 1rem; 
+    border-radius: 1rem;
+}
+
+.vibrantCon {
+   display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  padding: 2rem;
+  width: 74rem;
+  margin-top: 2rem;
+  background-color: oklch(24.083% 0.01154 278);
 }

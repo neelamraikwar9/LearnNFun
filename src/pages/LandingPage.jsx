@@ -9,6 +9,11 @@ const LandingPage = () => {
   const [expect, setExpect] = useState(false);
   const [leads, setLeads] = useState(false);
   const [testimonials, setTestimonials] = useState([]);
+      console.log(testimonials, "testimonials");
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState();
+
+
 
   function attendFun(){
     setAttend(!attend)
@@ -27,6 +32,8 @@ const LandingPage = () => {
       const res = await axios.get("https://lnf-backend.vercel.app/testimonials");
       console.log(res.data, "res");
       setTestimonials(res.data);
+      setLoading(false);
+      // console.log(testimonials, "testimonials");
 
 
     } catch(error){
@@ -218,6 +225,7 @@ const LandingPage = () => {
 
               <div className="qCon">
               <p className="ques">Who leads these classes?</p>
+              
               <button onClick={leadsFun} className="plsBtn">{leads ? "➖" : "➕"}</button>
                </div>
               {leads && <p className="ans">Our classes are led by active LNF members who have been practicing English in the community for 5-6 months or more. They have gained enough confidence and experience to guide sessions, lead activities, and support other learners. They are not professional teachers, but enthusiastic learners who grow together with the community.</p>}
@@ -234,11 +242,17 @@ const LandingPage = () => {
            style={{paddingLeft: '30rem'}}
            >Testimonials</h1>
 
-           {testimonials.map((test) => {
-            <div>
-              <p>{test.name}</p>
+           <div className="testimonialCon"> 
+           {loading && <p>Testimonials are loading✨...</p>}
+           {error && <p style={{color: 'red'}}>{error}</p>}
+           {testimonials?.map((test) =>
+            <div key={test._id} className='testimonialBox' >
+              <h3>{test.name}</h3>
+              <p><i>{test.testimonial}</i></p>
             </div>
-           })}
+           
+           )}
+            </div>
 
 
         </div>

@@ -27,13 +27,13 @@ function App() {
       <Route path="/" element={<Login/>}></Route>
       <Route path="/sign-up" element={<Signup/>}></Route>
       <Route path="" element={<ProtectedLayout/>}>
-      <Route element={<ProtectedRoute/>}>
+      {/* <Route element={<ProtectedRoute/>}> */}
        <Route path="/landing" element={<LandingPage/>}></Route>
       <Route path="/about" element={<About/>}></Route>
       <Route path="/join" element={<JoinUs/>}></Route>
       <Route path="/schedule" element={<Schedule/>}></Route>
       <Route path="/chatbot" element={<Chatbot/>}></Route>
-      </Route>
+      {/* </Route> */}
       </Route>
       </Routes>
        <ToastContainer />

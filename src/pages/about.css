@@ -1,3 +1,17 @@
+.iniContainer {
+  color: aliceblue;
+   border: 1px solid rgb(47, 168, 255);
+   padding-top: 10rem;
+   width: 78rem;
+
+}
+
+.Sh {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 1rem;
+}
+
 .imgCon {
     /* display: flex;  */
     flex-direction: column;

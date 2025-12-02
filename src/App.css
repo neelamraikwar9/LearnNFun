@@ -165,15 +165,7 @@
   
 } */
 
-.vibrantCon {
-   display: flex;
-  flex-wrap: wrap;
-  border: 1px solid red;
-  padding: 2rem;
-  width: 74rem;
-  margin-top: 2rem;
-  background-color: oklch(21% 0.034 264.665);
-}
+
 
 .imgCon {
   width: 50%;
@@ -203,13 +195,7 @@
 }
 
 
-.iniContainer {
-  color: aliceblue;
-   border: 1px solid rgb(47, 168, 255);
-   margin-top: 10rem;
-   width: 78rem;
 
-}
 
 .initiator {
   display: flex;
@@ -217,11 +203,7 @@
 }
 
 
-.Sh {
-  width: 20rem;
-  height: 20rem;
-  border-radius: 1rem;
-}
+
 
 
 .iniCon {
