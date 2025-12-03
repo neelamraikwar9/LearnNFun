@@ -35,11 +35,11 @@ const Navbar = () => {
                 </NavLink>
               </li>
 
-              <li className="liStyl">
+              {/* <li className="liStyl">
                 <NavLink to="/chatbot" className="liText">
                   Chatbot
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

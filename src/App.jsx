@@ -9,7 +9,7 @@ import Schedule from './pages/Schedule';
 // import Navbar from './components/Navbar';
 import { ToastContainer, toast } from 'react-toastify';
 // import Footer from './components/Footer';
-import Chatbot from './pages/Chatbot';
+// import Chatbot from './pages/Chatbot';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
 import ProtectedLayout from './components/ProtectedLayout';
@@ -32,7 +32,7 @@ function App() {
       <Route path="/about" element={<About/>}></Route>
       <Route path="/join" element={<JoinUs/>}></Route>
       <Route path="/schedule" element={<Schedule/>}></Route>
-      <Route path="/chatbot" element={<Chatbot/>}></Route>
+      {/* <Route path="/chatbot" element={<Chatbot/>}></Route> */}
       {/* </Route> */}
       </Route>
       </Routes>
