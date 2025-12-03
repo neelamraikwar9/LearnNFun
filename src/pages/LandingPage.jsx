@@ -92,7 +92,7 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="iniContainer">
+        <div className="iniContainer  eftcBox">
           <h1 className="textHead  headText">ENGLISH FLUENCY {""} <span style={{color: 'white'}}>THROUGH</span> CONVERSATION </h1>
 
           <div className="iniCon">
@@ -122,7 +122,7 @@ const LandingPage = () => {
         
 
 
-        <div className="iniContainer">
+        <div className=" eftcBox iniContainer">
           <h1 className="textHead headText headStyle">Schedule</h1>
           <div className="sceduleCon">
           <div className="attendUsContainer">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
@@ -247,7 +247,8 @@ const LandingPage = () => {
            {error && <p style={{color: 'red'}}>{error}</p>}
            {testimonials?.map((test) =>
             <div key={test._id} className='testimonialBox' >
-              <h3>{test.name}</h3>
+              <h3 style={{margin: 0}}>{test.name}</h3>
+              <hr style={{width: '9rem', margin: 0}}/>
               <p><i>{test.testimonial}</i></p>
             </div>
            

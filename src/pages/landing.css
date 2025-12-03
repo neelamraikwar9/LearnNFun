@@ -1,3 +1,18 @@
+.attendUsContainer {
+  border: 1px solid rgb(252, 2, 190);
+  padding: 2rem;
+  width: 40rem;
+  height: auto;
+  display: flex;
+
+  flex-direction: column;
+ 
+  border-radius: 2rem;
+   
+  background-color: var(--primary-color);
+}
+
+
 .qsContainer {
     border: 1px solid blue; 
     display: flex; 
@@ -32,23 +47,32 @@
     flex-direction: row;
     border: 1px solid blue;  
     flex-wrap: wrap; 
+    padding: 2.6rem;
 }
 
 .testimonialBox {
-    border: 1px solid green ;
+    border: 1px solid gray ;
     padding: 1rem;
     width: 20rem; 
-    height: 11rem;
+    height: 20rem;
     margin: 1rem; 
     border-radius: 1rem;
+  background-color: var(--primary-color);
+  font-size: 1.5rem;
 }
 
 .vibrantCon {
    display: flex;
   flex-wrap: wrap;
-  border: 1px solid red;
+  /* border: 1px solid red;  */
   padding: 2rem;
   width: 74rem;
   margin-top: 6rem;
-  background-color: oklch(24.083% 0.01154 278);
+  background-color: oklch(22.62% 0.00418 264.533);
+  border-radius: 3rem;
+}
+
+.eftcBox {
+    padding: 0; 
+    margin-top: 6rem;
 }

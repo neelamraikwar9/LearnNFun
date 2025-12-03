@@ -1,4 +1,6 @@
-
+/* :root {
+  --primary-color:  oklch(22.62% 0.00418 264.533);
+} */
 
 .navContainer {
   background-color: rgb(38, 38, 38);;
@@ -202,7 +204,12 @@
   justify-content: center;
 }
 
-
+.iniContainer {
+  color: aliceblue;
+   border: 1px solid rgb(47, 168, 255);
+   padding-top: 10rem;
+   width: 78rem;
+}
 
 
 
@@ -215,9 +222,10 @@
    padding: 3rem;
    padding-left: 5rem;
    margin-left: 5rem;
-   background-color: oklch(21% 0.034 264.665);
+   /* background-color:; */
    gap: 1rem;
    width: 60rem;
+   border-radius: 1rem;
 }
 
 .iniImg {
@@ -277,19 +285,7 @@
 
 }
 
-.attendUsContainer {
-  border: 1px solid rgb(252, 2, 190);
-  padding: 2rem;
-  width: 40rem;
-  height: auto;
-  display: flex;
 
-  flex-direction: column;
- 
-  border-radius: 2rem;
-   
-  background-color: oklch(21% 0.034 264.665);
-}
 
 
 
