@@ -9,7 +9,7 @@
  
   border-radius: 2rem;
    
-  background-color: var(--primary-color);
+  background-color:  oklch(22.62% 0.00418 264.533);
 }
 
 
@@ -57,7 +57,7 @@
     height: 20rem;
     margin: 1rem; 
     border-radius: 1rem;
-  background-color: var(--primary-color);
+  background-color:  oklch(22.62% 0.00418 264.533);
   font-size: 1.5rem;
 }
 
