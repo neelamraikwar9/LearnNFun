@@ -123,10 +123,10 @@ const LandingPage = () => {
 
 
         <div className=" eftcBox iniContainer">
-          <h1 className="textHead headText headStyle">Schedule</h1>
+          <h1 className="textHead headText headStyle" style={{margin: '0', fontSize: '3.5rem'}}>Schedule</h1>
           <div className="sceduleCon">
           <div className="attendUsContainer">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-            <h1>Attend Us!</h1>
+            <h1 className='textHead'>Attend Us!</h1>
             <div className="attendUsCon">
               <div className="schBox">
                 <i
@@ -139,7 +139,7 @@ const LandingPage = () => {
                   }}
                 ></i>
                 <p>
-                  <i>Every Saturday to Wednesday (5 Days A Week)</i>
+                  <i>Every Monday to Saturday</i>
                 </p>
               </div>
 
@@ -203,7 +203,7 @@ const LandingPage = () => {
 
         <div className="iniContainer">
           
-            <h1 className="textHead headText headStyle" style={{paddingLeft: '27rem'}}>Wondering to join?</h1>
+            <h1 className="textHead  headStyle" style={{padding: '0', margin: '0', paddingLeft:'15rem'}}>Have Questions? We’ve Got Answers!</h1>
             <div className="sceduleCon">
             <div className="attendUsContainer">
               <h1> FAQs</h1>

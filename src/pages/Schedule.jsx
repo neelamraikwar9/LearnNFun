@@ -2,7 +2,11 @@ import React from 'react'
 
 const Schedule = () => {
   return (
-    <div>Schedule</div>
+    <main>
+      <div className="iniContainer">
+      
+      </div>
+    </main>
   )
 }
 

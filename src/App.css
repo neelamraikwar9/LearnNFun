@@ -252,8 +252,8 @@
 }
 
 .teContainer {
-   border: 1px solid rgb(180, 13, 174);
-   /* padding: 0rem 3rem; */
+   /* border: 1px solid rgb(180, 13, 174); */
+   
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;

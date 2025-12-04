@@ -31,7 +31,7 @@ const About = () => {
       </div>
 
       <div className="iniContainer" style={{paddingTop: '0',  marginTop: '10rem'}}>
-        <h1 className="textHead initiator" style={{margin: '0'}}>The Heart of Our Community</h1>
+        <h1 className="textHead initiator" style={{marginBttom: '1rem'}}>The Heart of Our Community</h1>
 
         <div className="iniContainer  teContainer ssCon">
           <div className="teCon">
