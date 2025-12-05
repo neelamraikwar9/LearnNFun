@@ -65,10 +65,15 @@ const JoinUs = () => {
 
   async function handleSubmit(e){
     e.preventDefault();
-    
-    console.log(form, 'chankdjkjfkdj')
+
+    console.log(form, 'chankdjkjfkdj');
+
     try{
-    const res = axios.post("https://lnf-backend.vercel.app/forms", JSON.stringify(form), {headers : {"Content-Type" : "application/json" }});
+    const res = await axios.post("https://lnf-backend.vercel.app/forms", JSON.stringify(form), 
+    {
+     headers : {"Content-Type" : "application/json" }
+    }
+  );
     console.log(res.data,  "Details added successfully");
 
     toast.success("Details added successfully", {
@@ -86,10 +91,20 @@ const JoinUs = () => {
     purpose: "",
     duration: ""
   });
-  } catch(error){
-    console.log("Error Submitting Detail", error);
- }
-  }
+   } catch(error){
+    console.log("Error Submitting Detail", error)
+     if (error.response) {
+        console.error("Server error:", error.response.data);
+        console.error("Status:", error.response.status);
+      } else if (error.request) {
+        console.error("Network error:", error.request);
+        alert("Network error: Please check your internet connection.");
+      } else {
+        console.error("Error:", error.message);
+        alert(` Error: ${error.message}`);
+      }
+    }
+}
 
 
   return (
