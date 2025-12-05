@@ -23,3 +23,10 @@
     display: flex; 
     justify-content: center;
 }
+
+.hoverStyl:hover {
+    font-size: 1.7rem;
+}
+
+
+
