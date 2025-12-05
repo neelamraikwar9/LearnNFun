@@ -7,7 +7,11 @@ const Navbar = () => {
           <div className="lnf">
             <a href="/" className="lnf" style={{marginTop: ''}}>
             <img src="./images/image.png" alt="LNF Logo" style={{width:'5rem',height: '5rem', marginBottom: '1rem'}}/>
-              <div style={{marginTop: '0.9rem', fontFamily: '"Brush Script MT", "Lucida Handwriting", cursive',}}>Learn 'N' Fun
+              <div 
+              style={{marginTop: '0.9rem', 
+              // fontFamily: '"Brush Script MT", "Lucida Handwriting", cursive',
+              }}>
+              Learn 'N' Fun
                 {/* <span style={{color: 'red'}}>Learn</span> <span style={{color: 'black'}}>'N'</span> <span style={{color: 'blue'}}>Fun</span> */}
                 
                 </div>

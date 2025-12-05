@@ -130,7 +130,7 @@ const LandingPage = () => {
             <div className="attendUsCon">
               <div className="schBox">
                 <i
-                  class="bi bi-calendar3"
+                  className="bi bi-calendar3"
                   style={{
                     fontSize: "2rem",
                     color: "greenyellow",

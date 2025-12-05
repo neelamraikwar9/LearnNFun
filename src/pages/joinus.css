@@ -22,6 +22,12 @@
     
 }
 
+.formContainer {
+    display: flex; 
+    justify-content: center;
+
+}
+
 
 .formCon {
     border: 1px solid greenyellow;
@@ -29,8 +35,9 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background-color: rgb(3, 3, 43);
+    background-color: oklch(22.62% 0.00418 264.533);
     border-radius: 1rem;
+    width: 30rem; 
 }
 
 .field {
@@ -42,25 +49,21 @@
 }
 
 .inp {
-    font-size: 1.5rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-size: 1.5rem; */
     border-radius: 0.5rem;
     color:whitesmoke;
+    
 }
 
 .sel {
-    font-size: 1.5rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 0.5rem;
     color: whitesmoke;
 }
 
-.btn {
-    display: flex;
+.subDetailBtn {
+    /* border: 1px solid red;  */
+    display: flex; 
     justify-content: center;
-    /* border: 1px solid gold; */
-    
-
 }
 
 .subBtn {
@@ -68,7 +71,7 @@
     padding: 0.9rem;
     font-size: large;
     font-weight: 100;
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     border-radius: 1rem; 
 }
 
