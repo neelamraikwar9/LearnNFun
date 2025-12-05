@@ -6,27 +6,27 @@ import LandingPage from './pages/LandingPage';
 import About from './pages/About';
 import JoinUs from './pages/JoinUs';
 import Schedule from './pages/Schedule';
-// import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';
 import { ToastContainer, toast } from 'react-toastify';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 // import Chatbot from './pages/Chatbot';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
-import ProtectedLayout from './components/ProtectedLayout';
-import ProtectedRoute from './components/ProtectedRoute'
-import { Authprovider } from './context/AuthContext';
+// import ProtectedLayout from './components/ProtectedLayout';
+// import ProtectedRoute from './components/ProtectedRoute'
+// import { Authprovider } from './context/AuthContext';
 
 function App() {
   return (
     <>
-    {/* <div className="navbar">
+    <div className="navbar">
     <Navbar/>
-    </div> */}
-    <Authprovider>
+    </div>
+    {/* <Authprovider> */}
       <Routes>
-      <Route path="/" element={<Login/>}></Route>
+      {/* <Route path="/" element={<Login/>}></Route>
       <Route path="/sign-up" element={<Signup/>}></Route>
-      <Route path="" element={<ProtectedLayout/>}>
+      <Route path="" element={<ProtectedLayout/>}> */}
       {/* <Route element={<ProtectedRoute/>}> */}
        <Route path="/landing" element={<LandingPage/>}></Route>
       <Route path="/about" element={<About/>}></Route>
@@ -34,13 +34,13 @@ function App() {
       <Route path="/schedule" element={<Schedule/>}></Route>
       {/* <Route path="/chatbot" element={<Chatbot/>}></Route> */}
       {/* </Route> */}
-      </Route>
+      {/* </Route> */}
       </Routes>
        <ToastContainer />
-       </Authprovider>
-       {/* <div>
+       {/* </Authprovider> */}
+       <div>
         <Footer/>
-       </div> */}
+       </div>
       
     </>
   )
