@@ -5,7 +5,7 @@ const Navbar = () => {
       <nav className="navContainer">
         <div className="navBar">
           <div className="lnf">
-            <a href="/landing" className="lnf" style={{marginTop: ''}}>
+            <a href="/" className="lnf" style={{marginTop: ''}}>
             <img src="./images/image.png" alt="LNF Logo" style={{width:'5rem',height: '5rem', marginBottom: '1rem'}}/>
               <div 
               style={{marginTop: '0.9rem', 
@@ -18,7 +18,7 @@ const Navbar = () => {
           <div>
             <ul className="navItemCon">
               <li className="liStyl">
-                <NavLink to="/landing" className="liText">
+                <NavLink to="/" className="liText">
                   Home
                 </NavLink>
               </li>
