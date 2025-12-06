@@ -1,5 +1,5 @@
 .attendUsContainer {
-  border: 1px solid rgb(252, 2, 190);
+  /* border: 1px solid rgb(252, 2, 190); */
   padding: 2rem;
   width: 40rem;
   height: auto;
@@ -14,7 +14,7 @@
 
 
 .qsContainer {
-    border: 1px solid blue; 
+    /* border: 1px solid blue;  */
     display: flex; 
     flex-direction: column;
 }
@@ -45,7 +45,7 @@
 .testimonialCon {
     display: flex;
     flex-direction: row;
-    border: 1px solid blue;  
+    /* border: 1px solid blue;   */
     flex-wrap: wrap; 
     padding: 2.6rem;
 }

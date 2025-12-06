@@ -18,12 +18,16 @@ const Navbar = () => {
           <div>
             <ul className="navItemCon">
               <li className="liStyl">
-                <NavLink to="/" className="liText">
+                <NavLink to="/" className={({ isActive }) => 
+              `liText ${isActive ? 'active' : ''}`
+            }>
                   Home
                 </NavLink>
               </li>
               <li className="liStyl">
-                <NavLink to="/about" className="liText">
+                <NavLink to="/about" className={({ isActive }) => 
+              `liText ${isActive ? 'active' : ''}`
+            }>
                   About
                 </NavLink>
               </li>
@@ -34,7 +38,9 @@ const Navbar = () => {
               </li> */}
 
               <li className="liStyl">
-                <NavLink to="/schedule" className="liText">
+                <NavLink to="/schedule" className={({ isActive }) => 
+              `liText ${isActive ? 'active' : ''}`
+            }>
                   Schedule
                 </NavLink>
               </li>

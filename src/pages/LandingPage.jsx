@@ -134,7 +134,7 @@ const LandingPage = () => {
                   style={{
                     fontSize: "2rem",
                     color: "greenyellow",
-                    border: "1px solid green",
+                    // border: "1px solid green",
                     padding: "1rem",
                   }}
                 ></i>
@@ -149,7 +149,7 @@ const LandingPage = () => {
                   style={{
                     fontSize: "2rem",
                     color: "greenyellow",
-                    border: "1px solid green",
+                    // border: "1px solid green",
                     padding: "1rem",
                   }}
                 ></i>
@@ -164,7 +164,7 @@ const LandingPage = () => {
                   style={{
                     fontSize: "2rem",
                     color: "greenyellow",
-                    border: "1px solid green",
+                    // border: "1px solid green",
                     padding: "1rem",
                   }}
                 ></i>
@@ -201,9 +201,9 @@ const LandingPage = () => {
 
 
 
-        <div className="iniContainer">
+        <div className="iniContainer" style={{marginTop: '0',}}>
           
-            <h1 className="textHead  headStyle" style={{padding: '0', margin: '0', paddingLeft:'15rem'}}>Have Questions? We’ve Got Answers!</h1>
+            <h1 className="textHead  headStyle" style={{padding: '0', margin: '0', paddingLeft:'15rem', marginBottom: '1rem'}}>Have Questions? We’ve Got Answers!</h1>
             <div className="sceduleCon">
             <div className="attendUsContainer">
               <h1> FAQs</h1>
@@ -239,7 +239,7 @@ const LandingPage = () => {
 
         <div className="iniContainer">
           <h1 className="textHead headText headStyle"
-           style={{paddingLeft: '30rem'}}
+           style={{paddingLeft: '30rem', margin: '0', paddingTop: '1rem'}}
            >Testimonials</h1>
 
            <div className="testimonialCon"> 

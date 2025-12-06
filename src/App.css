@@ -18,13 +18,13 @@
   flex-wrap: wrap;
   /* justify-content:space-evenly; */
   gap: 5rem;
-  border: 1px solid  salmon;
+  /* border: 1px solid  salmon; */
 }
 
 
 .lnf {
   color: rgb(253, 253, 254);
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-decoration: none;
   font-size: 2rem;
   font-weight:bolder;
@@ -174,12 +174,12 @@
   /* max-width: rem; */
   height: auto;
   border-radius: 2rem;
-  border: 1px solid greenyellow;
+  /* border: 1px solid greenyellow; */
 }
 
 .vibText {
   color: whitesmoke;
-  border: 1px solid greenyellow;
+  /* border: 1px solid greenyellow; */
   width: 30rem;
   /* padding: 1rem; */
   padding-top: 4rem;
@@ -206,7 +206,7 @@
 
 .iniContainer {
   color: aliceblue;
-   border: 1px solid rgb(47, 168, 255);
+   /* border: 1px solid rgb(47, 168, 255); */
    padding-top: 10rem;
    width: 78rem;
 }
@@ -215,12 +215,12 @@
 
 .iniCon {
    margin: 2rem;
-   border: 1px solid greenyellow;
+   /* border: 1px solid greenyellow; */
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
    padding: 3rem;
-   padding-left: 5rem;
+   /* padding-left: 5rem; */
    margin-left: 5rem;
    background-color:  oklch(22.62% 0.00418 264.533);
    gap: 1rem;
@@ -229,26 +229,32 @@
 }
 
 .iniImg {
-   border: 1px solid rgb(136, 172, 83);
+   /* border: 1px solid rgb(172, 114, 83); */
    display: flex;
    justify-content: center;
    font-size: 1.5rem;
 }
 
 .outComesCon {
-  border: 1px solid rgb(136, 172, 83);
+  /* border: 1px solid rgb(136, 172, 83); */
    display: flex;
    flex-direction: column;
    justify-content: center;
    font-size: 1.5rem;
+   border-radius: 1rem;
+   background-color: rgb(52, 51, 51);
+
 }
 
 .iniName {
-   border: 1px solid rgb(136, 172, 83);
+   /* border: 1px solid rgb(136, 172, 83); */
    display: flex;
    flex-direction: column;
    align-items: center;
    font-size: 1.5rem;
+   border-radius: 1rem;
+   width: 35rem;
+   background-color: rgb(52, 51, 51);
 }
 
 .teContainer {
@@ -267,7 +273,7 @@
 
 
 .teAbout {
-   border: 1px solid rgb(136, 172, 83);
+   /* border: 1px solid rgb(136, 172, 83); */
    display: flex;
    justify-content: center;
 }
@@ -275,7 +281,7 @@
 .sceduleCon{
   display: flex;
   padding-left: 18rem;
-  border:1px solid rgb(47, 168, 255);
+  /* border:1px solid rgb(47, 168, 255); */
   
 
 }
@@ -300,19 +306,19 @@
 .schBox {
   display: flex;
  
-  border: 1px solid salmon
+  /* border: 1px solid salmon */
   
   
 }
 
-.message {
+/* .message {
   border:1px solid rgb(180, 13, 174);
-}
+} */
 
 
 .message {
   font-size: 1.6rem;
-  border:1px solid rgb(229, 88, 224);
+  /* border:1px solid rgb(229, 88, 224); */
   /* height: 10rem; */
   padding: 2rem 0rem;
 
@@ -334,7 +340,7 @@
   color:  rgb(47, 168, 255);
   padding: 1rem;
   padding-left: 4rem;
-  border:1px solid rgb(180, 13, 174);
+  /* border:1px solid rgb(180, 13, 174); */
 }
 
 .headStyle {

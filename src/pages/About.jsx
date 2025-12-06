@@ -14,7 +14,7 @@ const About = () => {
               className="Sh"
             />
           </div>
-          <div className="iniName">
+          <div className="aboutSh">
             <h2>Mr. Shubham Pandey</h2>
             <p>
               LNF was created by Mr. Shubham and a few others on 18 March 2023,
