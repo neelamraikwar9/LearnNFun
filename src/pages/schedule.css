@@ -1,22 +1,22 @@
 .activityContainer {
     /* border: 1px solid greenyellow; */
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
     margin-left: 6rem;
-    margin-top: 5rem; 
+    margin-top: 5rem;
 
 }
 
 
 .activityBox {
-    border: 1px solid greenyellow; 
-    width: 20rem; 
-    height: 20rem; 
+    border: 1px solid greenyellow;
+    width: 20rem;
+    height: 20rem;
     padding: 1rem;
 }
 
 .weekDay {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 .weekActName {
@@ -28,22 +28,22 @@
 }
 
 .activityDetailBtn {
-    display: flex; 
+    display: flex;
     justify-content: center;
     margin-top: 5rem;
 }
 
 .actBtn {
-    width: 20rem; 
-    padding: 1rem; 
-    
+    width: 20rem;
+    padding: 1rem;
+
 }
 
-.DetBtn{
+.DetBtn {
     padding: 0.5rem;
     color: white;
 }
 
 .DetBtn:hover {
-    color: white; 
+    color: white;
 }

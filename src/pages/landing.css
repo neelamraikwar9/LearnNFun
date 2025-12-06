@@ -1,26 +1,26 @@
 .attendUsContainer {
-  /* border: 1px solid rgb(252, 2, 190); */
-  padding: 2rem;
-  width: 40rem;
-  height: auto;
-  display: flex;
+    /* border: 1px solid rgb(252, 2, 190); */
+    padding: 2rem;
+    width: 40rem;
+    height: auto;
+    display: flex;
 
-  flex-direction: column;
- 
-  border-radius: 2rem;
-   
-  background-color:  oklch(22.62% 0.00418 264.533);
+    flex-direction: column;
+
+    border-radius: 2rem;
+
+    background-color: oklch(22.62% 0.00418 264.533);
 }
 
 
 .qsContainer {
     /* border: 1px solid blue;  */
-    display: flex; 
+    display: flex;
     flex-direction: column;
 }
 
 .qCon {
-    display: flex; 
+    display: flex;
     gap: 1rem;
 }
 
@@ -32,47 +32,47 @@
 .ques {
     font-size: 1.6rem;
     font-weight: bold;
-    margin: 0.8rem; 
+    margin: 0.8rem;
 }
 
 .ans {
     font-size: 1.6rem;
-    font-style: italic; 
+    font-style: italic;
     margin: 0;
-    padding: 0 1rem; 
+    padding: 0 1rem;
 }
 
 .testimonialCon {
     display: flex;
     flex-direction: row;
     /* border: 1px solid blue;   */
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     padding: 2.6rem;
 }
 
 .testimonialBox {
-    border: 1px solid gray ;
+    border: 1px solid gray;
     padding: 1rem;
-    width: 20rem; 
+    width: 20rem;
     height: 20rem;
-    margin: 1rem; 
+    margin: 1rem;
     border-radius: 1rem;
-  background-color:  oklch(22.62% 0.00418 264.533);
-  font-size: 1.5rem;
+    background-color: oklch(22.62% 0.00418 264.533);
+    font-size: 1.5rem;
 }
 
 .vibrantCon {
-   display: flex;
-  flex-wrap: wrap;
-  /* border: 1px solid red;  */
-  padding: 2rem;
-  width: 74rem;
-  margin-top: 6rem;
-  background-color: oklch(22.62% 0.00418 264.533);
-  border-radius: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red;  */
+    padding: 2rem;
+    width: 74rem;
+    margin-top: 6rem;
+    background-color: oklch(22.62% 0.00418 264.533);
+    border-radius: 3rem;
 }
 
 .eftcBox {
-    padding: 0; 
+    padding: 0;
     margin-top: 6rem;
 }

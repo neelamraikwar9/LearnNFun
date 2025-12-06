@@ -1,46 +1,43 @@
-import './landing.css';
+import "./landing.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
-import axios from 'axios';
+import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 const LandingPage = () => {
   const [attend, setAttend] = useState(false);
   const [expect, setExpect] = useState(false);
   const [leads, setLeads] = useState(false);
   const [testimonials, setTestimonials] = useState([]);
-      console.log(testimonials, "testimonials");
+  console.log(testimonials, "testimonials");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState();
 
-
-
-  function attendFun(){
-    setAttend(!attend)
+  function attendFun() {
+    setAttend(!attend);
   }
 
-  function expectFun(){
-    setExpect(!expect)
+  function expectFun() {
+    setExpect(!expect);
   }
 
-  function leadsFun(){
-    setLeads(!leads)
+  function leadsFun() {
+    setLeads(!leads);
   }
 
-  const fetchTestimonials =  async () => {
-    try{
-      const res = await axios.get("https://lnf-backend.vercel.app/testimonials");
+  const fetchTestimonials = async () => {
+    try {
+      const res = await axios.get(
+        "https://lnf-backend.vercel.app/testimonials"
+      );
       console.log(res.data, "res");
       setTestimonials(res.data);
       setLoading(false);
       // console.log(testimonials, "testimonials");
-
-
-    } catch(error){
-      throw error; 
-      
+    } catch (error) {
+      throw error;
     }
-  }
+  };
 
   useEffect(() => {
     fetchTestimonials();
@@ -49,9 +46,7 @@ const LandingPage = () => {
   return (
     <main className="body">
       <div className="background">
-        <div className="navbar">
-          {/* <Navbar /> */}
-        </div>
+        <div className="navbar">{/* <Navbar /> */}</div>
 
         <div className="lines">
           <h1 className="midh1" style={{}}>
@@ -61,7 +56,7 @@ const LandingPage = () => {
             "Expand your learning circle to get rid of contraction in life."{" "}
           </p>
           <Link to="/about">
-          <button className="midBtn">Learn More</button>
+            <button className="midBtn">Learn More</button>
           </Link>
         </div>
       </div>
@@ -78,7 +73,8 @@ const LandingPage = () => {
             <h1 className="textHead">Our Vibrant English Community</h1>
             <p className="miss">
               At Learn 'N' Fun, we're on a mission to revolutionize English
-              communication with General Awareness through interactive and engaging classes.
+              communication with General Awareness through interactive and
+              engaging classes.
             </p>
             <br />
             <br />
@@ -93,180 +89,205 @@ const LandingPage = () => {
         </div>
 
         <div className="iniContainer  eftcBox">
-          <h1 className="textHead  headText">ENGLISH FLUENCY {""} <span style={{color: 'white'}}>THROUGH</span> CONVERSATION </h1>
+          <h1 className="textHead  headText">
+            ENGLISH FLUENCY {""} <span style={{ color: "white" }}>THROUGH</span>{" "}
+            CONVERSATION{" "}
+          </h1>
 
           <div className="iniCon">
             <div className="outComesCon">
-             <h1 className="textHead">Outcomes</h1>
+              <h1 className="textHead">Outcomes</h1>
               <p>✔️Soft Skills</p>
               <p>✔️Communication Skills</p>
-            <p>✔️Leadership Development</p>
-            <p>✔️General Awareness</p>
+              <p>✔️Leadership Development</p>
+              <p>✔️General Awareness</p>
             </div>
             <div className="iniName">
-              <h1  className="textHead">Facilities</h1>
-              <p>
-              ✔️Access To All Grammer Materials
-            </p>
-            <p >
-              ✔️Access To More Than 100 Life Changing Novels
-            </p>
-            <p>✔️Virtual Learning Environment</p>
-            <p >
-              ✔️Interaction With People From Various Aspect Of Life
-            </p>
+              <h1 className="textHead">Facilities</h1>
+              <p>✔️Access To All Grammer Materials</p>
+              <p>✔️Access To More Than 100 Life Changing Novels</p>
+              <p>✔️Virtual Learning Environment</p>
+              <p>✔️Interaction With People From Various Aspect Of Life</p>
             </div>
           </div>
         </div>
-
-        
-
 
         <div className=" eftcBox iniContainer">
-          <h1 className="textHead headText headStyle" style={{margin: '0', fontSize: '3.5rem'}}>Schedule</h1>
+          <h1
+            className="textHead headText headStyle"
+            style={{ margin: "0", fontSize: "3.5rem" }}
+          >
+            Schedule
+          </h1>
           <div className="sceduleCon">
-          <div className="attendUsContainer">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-            <h1 className='textHead'>Attend Us!</h1>
-            <div className="attendUsCon">
-              <div className="schBox">
-                <i
-                  className="bi bi-calendar3"
-                  style={{
-                    fontSize: "2rem",
-                    color: "greenyellow",
-                    // border: "1px solid green",
-                    padding: "1rem",
-                  }}
-                ></i>
-                <p>
-                  <i>Every Monday to Saturday</i>
-                </p>
+            <div className="attendUsContainer">
+              <h1 className="textHead">Attend Us!</h1>
+              <div className="attendUsCon">
+                <div className="schBox">
+                  <i
+                    className="bi bi-calendar3"
+                    style={{
+                      fontSize: "2rem",
+                      color: "greenyellow",
+                      // border: "1px solid green",
+                      padding: "1rem",
+                    }}
+                  ></i>
+                  <p>
+                    <i>Every Monday to Saturday</i>
+                  </p>
+                </div>
+
+                <div className="schBox">
+                  <i
+                    class="bi bi-alarm-fill"
+                    style={{
+                      fontSize: "2rem",
+                      color: "greenyellow",
+                      // border: "1px solid green",
+                      padding: "1rem",
+                    }}
+                  ></i>
+                  <p>
+                    <i>7:15 to 8:15</i>
+                  </p>
+                </div>
+
+                <div className="schBox">
+                  <i
+                    class="bi bi-geo-alt-fill"
+                    style={{
+                      fontSize: "2rem",
+                      color: "greenyellow",
+                      // border: "1px solid green",
+                      padding: "1rem",
+                    }}
+                  ></i>
+                  <p>
+                    <i>Online - Via Google Meet</i>
+                  </p>
+                </div>
               </div>
 
-              <div className="schBox">
-                <i
-                  class="bi bi-alarm-fill"
-                  style={{
-                    fontSize: "2rem",
-                    color: "greenyellow",
-                    // border: "1px solid green",
-                    padding: "1rem",
-                  }}
-                ></i>
+              <div className="message">
                 <p>
-                  <i>7:15 to 8:15</i>
+                  Join us to elevate your speaking skills in a welcoming class
+                  designed for speakers of all backgrounds and experience
+                  levels. Whether you're just beginning your speaking journey or
+                  looking to refine your abilities, you'll gain valuable
+                  insights and expert guidance to boost your confidence and
+                  effectiveness. Benefit from our expertise and take your
+                  speaking prowess to the next level.
                 </p>
               </div>
-
-              <div className="schBox">
-                <i
-                  class="bi bi-geo-alt-fill"
-                  style={{
-                    fontSize: "2rem",
-                    color: "greenyellow",
-                    // border: "1px solid green",
-                    padding: "1rem",
-                  }}
-                ></i>
-                <p>
-                  <i>Online - Via Google Meet</i>
-                </p>
+              <div className="schBtnCon">
+                <Link to="/schedule">
+                  <button className=" scheduleBtn midBtn">
+                    Schedule Detail
+                  </button>
+                </Link>
               </div>
-            </div>
- 
-
-            <div className="message">
-              <p>
-                Join us to elevate your speaking skills in a welcoming class
-                designed for speakers of all backgrounds and experience levels.
-                Whether you're just beginning your speaking journey or looking
-                to refine your abilities, you'll gain valuable insights and
-                expert guidance to boost your confidence and effectiveness.
-                Benefit from our expertise and take your speaking prowess to the
-                next level.
-              </p>
-            </div>
-            <div className="schBtnCon">
-            <Link to="/schedule">
-            <button className=" scheduleBtn midBtn">Schedule Detail</button>
-            </Link>
-            </div>
             </div>
           </div>
         </div>
 
-
-
-
-
-
-
-        <div className="iniContainer" style={{marginTop: '0',}}>
-          
-            <h1 className="textHead  headStyle" style={{padding: '0', margin: '0', paddingLeft:'15rem', marginBottom: '1rem'}}>Have Questions? We’ve Got Answers!</h1>
-            <div className="sceduleCon">
+        <div className="iniContainer" style={{ marginTop: "0" }}>
+          <h1
+            className="textHead  headStyle"
+            style={{
+              padding: "0",
+              margin: "0",
+              paddingLeft: "15rem",
+              marginBottom: "1rem",
+            }}
+          >
+            Have Questions? We’ve Got Answers!
+          </h1>
+          <div className="sceduleCon">
             <div className="attendUsContainer">
               <h1> FAQs</h1>
               <div className="qsContainer">
+                <div className="qCon">
+                  <p className="ques">Who can attend these classes?</p>
+                  <button onClick={attendFun} className="plsBtn">
+                    {attend ? "➖" : "➕"}
+                  </button>
+                </div>
+                {attend && (
+                  <p className="ans">
+                    Our classes are open to all learners who have at least basic
+                    English-speaking ability. Whether you’re at an elementary
+                    level, improving your fluency, or already advanced and
+                    looking to refine your communication skills, everyone is
+                    welcome to join and grow with us.
+                  </p>
+                )}
 
-              <div className="qCon">
-              <p className="ques">Who can attend these classes?</p>
-              <button onClick={attendFun} className="plsBtn">{attend ? "➖" : "➕"}</button>
-              </div>
-              {attend && <p className="ans">Our classes are open to all learners who have at least basic English-speaking ability. Whether you’re at an elementary level, improving your fluency, or already advanced and looking to refine your communication skills, everyone is welcome to join and grow with us.</p>}
-              
-             
-             <div className="qCon">
-              <p className="ques">What can I expect to learn in these classes?</p>
-              <button onClick={expectFun} className="plsBtn">{expect ? "➖" : "➕"}</button>
-              </div>
-              {expect && <p className="ans">You’ll gain valuable insights and practical techniques to enhance your speaking skills, focusing on clarity, confidence, and effective communication. Along with improving your English, you’ll also develop better social skills, learn to communicate comfortably with different people, and build general knowledge through interactive discussions, activities, and real-life topics.</p>}
-            
+                <div className="qCon">
+                  <p className="ques">
+                    What can I expect to learn in these classes?
+                  </p>
+                  <button onClick={expectFun} className="plsBtn">
+                    {expect ? "➖" : "➕"}
+                  </button>
+                </div>
+                {expect && (
+                  <p className="ans">
+                    You’ll gain valuable insights and practical techniques to
+                    enhance your speaking skills, focusing on clarity,
+                    confidence, and effective communication. Along with
+                    improving your English, you’ll also develop better social
+                    skills, learn to communicate comfortably with different
+                    people, and build general knowledge through interactive
+                    discussions, activities, and real-life topics.
+                  </p>
+                )}
 
-              <div className="qCon">
-              <p className="ques">Who leads these classes?</p>
-              
-              <button onClick={leadsFun} className="plsBtn">{leads ? "➖" : "➕"}</button>
-               </div>
-              {leads && <p className="ans">Our classes are led by active LNF members who have been practicing English in the community for 5-6 months or more. They have gained enough confidence and experience to guide sessions, lead activities, and support other learners. They are not professional teachers, but enthusiastic learners who grow together with the community.</p>}
+                <div className="qCon">
+                  <p className="ques">Who leads these classes?</p>
+
+                  <button onClick={leadsFun} className="plsBtn">
+                    {leads ? "➖" : "➕"}
+                  </button>
+                </div>
+                {leads && (
+                  <p className="ans">
+                    Our classes are led by active LNF members who have been
+                    practicing English in the community for 5-6 months or more.
+                    They have gained enough confidence and experience to guide
+                    sessions, lead activities, and support other learners. They
+                    are not professional teachers, but enthusiastic learners who
+                    grow together with the community.
+                  </p>
+                )}
               </div>
             </div>
-            
           </div>
         </div>
 
-
-
         <div className="iniContainer">
-          <h1 className="textHead headText headStyle"
-           style={{paddingLeft: '30rem', margin: '0', paddingTop: '1rem'}}
-           >Testimonials</h1>
+          <h1
+            className="textHead headText headStyle"
+            style={{ paddingLeft: "30rem", margin: "0", paddingTop: "1rem" }}
+          >
+            Testimonials
+          </h1>
 
-           <div className="testimonialCon"> 
-           {loading && <p>Testimonials are loading✨...</p>}
-           {error && <p style={{color: 'red'}}>{error}</p>}
-           {testimonials?.map((test) =>
-            <div key={test._id} className='testimonialBox' >
-              <h3 style={{margin: 0}}>{test.name}</h3>
-              <hr style={{width: '9rem', margin: 0}}/>
-              <p><i>{test.testimonial}</i></p>
-            </div>
-           
-           )}
-            </div>
-
-
+          <div className="testimonialCon">
+            {loading && <p>Testimonials are loading✨...</p>}
+            {error && <p style={{ color: "red" }}>{error}</p>}
+            {testimonials?.map((test) => (
+              <div key={test._id} className="testimonialBox">
+                <h3 style={{ margin: 0 }}>{test.name}</h3>
+                <hr style={{ width: "9rem", margin: 0 }} />
+                <p>
+                  <i>{test.testimonial}</i>
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
-
-
-
-
-
-
-      
       </div>
-
-    
     </main>
   );
 };

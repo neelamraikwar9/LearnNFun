@@ -1,5 +1,5 @@
-import Navbar from './Navbar'
-import Footer from './Footer'
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import { Outlet } from "react-router-dom";
 
 const ProtectedLayout = () => {
@@ -12,7 +12,7 @@ const ProtectedLayout = () => {
         <Outlet />
       </div>
       <div>
-        <Footer/>
+        <Footer />
       </div>
     </main>
   );

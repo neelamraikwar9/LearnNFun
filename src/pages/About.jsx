@@ -30,8 +30,13 @@ const About = () => {
         </div>
       </div>
 
-      <div className="iniContainer" style={{paddingTop: '0',  marginTop: '10rem'}}>
-        <h1 className="textHead initiator" style={{marginBttom: '1rem'}}>The Heart of Our Community</h1>
+      <div
+        className="iniContainer"
+        style={{ paddingTop: "0", marginTop: "10rem" }}
+      >
+        <h1 className="textHead initiator" style={{ marginBttom: "1rem" }}>
+          The Heart of Our Community
+        </h1>
 
         <div className="iniContainer  teContainer ssCon">
           <div className="teCon">
@@ -62,14 +67,13 @@ const About = () => {
             </div>
 
             <div className="smssCon">
-            <img
-              src="https://res.cloudinary.com/dltfnhclh/image/upload/v1764702831/lnf_ss1_zkf1kr.webp"
-              alt="img"
-              className="smss"
-              style={{ width: "45rem" }}
-            />
+              <img
+                src="https://res.cloudinary.com/dltfnhclh/image/upload/v1764702831/lnf_ss1_zkf1kr.webp"
+                alt="img"
+                className="smss"
+                style={{ width: "45rem" }}
+              />
             </div>
-            
           </div>
         </div>
       </div>
