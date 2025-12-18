@@ -96,14 +96,14 @@ const LandingPage = () => {
 
           <div className="iniCon">
             <div className="outComesCon">
-              <h1 className="textHead">Outcomes</h1>
+              <h1 className="textHead" style={{paddingLeft: '1rem'}}>Outcomes</h1>
               <p>✔️Soft Skills</p>
               <p>✔️Communication Skills</p>
               <p>✔️Leadership Development</p>
               <p>✔️General Awareness</p>
             </div>
             <div className="iniName">
-              <h1 className="textHead">Facilities</h1>
+              <h1 className="textHead" style={{paddingLeft: '1rem'}}>Facilities</h1>
               <p>✔️Access To All Grammer Materials</p>
               <p>✔️Access To More Than 100 Life Changing Novels</p>
               <p>✔️Virtual Learning Environment</p>
