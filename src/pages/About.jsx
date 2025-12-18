@@ -65,6 +65,8 @@ const About = () => {
                 className="ss"
               />
             </div>
+            <br/>
+            <br/>
 
             <div className="communitySS">
               <img
@@ -73,6 +75,9 @@ const About = () => {
                 className="ss"
               />
             </div>
+            <br/>
+            <br/>
+
 
             <div className="communitySS">
               <img
@@ -81,6 +86,9 @@ const About = () => {
                 className="ss"
               />
             </div>
+            <br/>
+            <br/>
+
 
             <div className="smssCon">
               <img
@@ -90,6 +98,8 @@ const About = () => {
                 style={{ width: "45rem" }}
               />
             </div>
+
+            <h2 style={{marginLeft: "23rem", fontFamily:"cursive", fontSize: '2rem'}}>Learners Who Make LNF Special</h2>
           </div>
         </div>
       </div>

@@ -26,9 +26,9 @@ const Schedule = () => {
   return (
     <main>
       <div className="iniContainer">
-        {loading && <p>Activities are Landing...📅</p>}
-        {error && <p style={{ color: "red" }}>{error}</p>}
         <div className="activityContainer">
+         {loading && <p>Activities are Landing...📅</p>}
+        {error && <p style={{ color: "red" }}>{error}</p>}
           {actvities.map((activity) => (
             <div key={activity._id} className="activityBox">
               <h2 className="weekDay">{activity.weekDay}</h2>
