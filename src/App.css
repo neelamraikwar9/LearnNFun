@@ -249,7 +249,7 @@
 }
 
 .iniName {
-  border: 0.0625rem solid rgb(136, 172, 83);
+  /* border: 0.0625rem solid rgb(136, 172, 83); */
   display: flex;
   flex-direction: column;
   /* align-items: center; */
