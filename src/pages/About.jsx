@@ -66,6 +66,22 @@ const About = () => {
               />
             </div>
 
+            <div className="communitySS">
+              <img
+                src="https://res.cloudinary.com/dltfnhclh/image/upload/v1766026608/IMG-20251208-WA0000_k2pssl.webp"
+                alt="img"
+                className="ss"
+              />
+            </div>
+
+            <div className="communitySS">
+              <img
+                src="https://res.cloudinary.com/dltfnhclh/image/upload/v1766026855/IMG-20251208-WA0003_lbygtz.webp"
+                alt="img"
+                className="ss"
+              />
+            </div>
+
             <div className="smssCon">
               <img
                 src="https://res.cloudinary.com/dltfnhclh/image/upload/v1764702831/lnf_ss1_zkf1kr.webp"
