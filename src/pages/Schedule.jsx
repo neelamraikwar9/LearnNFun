@@ -31,8 +31,8 @@ const Schedule = () => {
         {error && <p style={{ color: "red" }}>{error}</p>}
           {actvities.map((activity) => (
             <div key={activity._id} className="activityBox">
-              <h2 className="weekDay">{activity.weekDay}</h2>
-              <h3 className="weekActName">{activity.activityName}</h3>
+              <h2 className="weekDay">{activity.weekDay}📅</h2>
+              <h3 className="weekActName">{activity.activityName}📝</h3>
               <p className="activityDes">
                 <i>{activity.activityDescription}</i>
               </p>
