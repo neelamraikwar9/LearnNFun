@@ -22,39 +22,7 @@ const JoinUs = () => {
     console.log(form, "cjfdkfjdjkdfkdfk");
   }
 
-  //   async function handleSubmit(){
-  //     try{
-  //     const res = axios.post("https://lnf-backend.vercel.app/forms", JSON.stringify(form), {headers : {"Content-Type" : "application/json" }});
-  //     console.log(res.data,  "Details added successfully");
-
-  //     toast.success("Details added successfully", {
-  //       autoClose : 5000
-  //     });
-
-  //     setForm({
-  //     name: "",
-  //     email:"",
-  //     city: "",
-  //     contactNumber: "",
-  //     occupation: "",
-  //     qualification: "",
-  //     purpose: "",
-  //     duration: ""
-  //   });
-  //   } catch(error){
-  //     console.log("Error Submitting Detail", error)
-  //      if (error.response) {
-  //         console.error("Server error:", error.response.data);
-  //         console.error("Status:", error.response.status);
-  //       } else if (error.request) {
-  //         console.error("Network error:", error.request);
-  //         alert("Network error: Please check your internet connection.");
-  //       } else {
-  //         console.error("Error:", error.message);
-  //         alert(` Error: ${error.message}`);
-  //       }
-  //     }
-  // }
+  
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -120,18 +88,21 @@ const JoinUs = () => {
                 value={form.name}
                 onChange={handleOnChange}
                 className="inp"
+                required
               />
             </div>
 
             <div className="field">
               <label htmlFor="em">Email</label>
               <input
-                type="text"
+                type="email"
                 id="em"
                 name="email"
                 value={form.email}
                 onChange={handleOnChange}
                 className="inp"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                required
               />
             </div>
 
@@ -144,6 +115,7 @@ const JoinUs = () => {
                 value={form.contactNumber}
                 onChange={handleOnChange}
                 className="inp"
+                required
               />
             </div>
 
@@ -156,6 +128,7 @@ const JoinUs = () => {
                 value={form.city}
                 onChange={handleOnChange}
                 className="inp"
+                required
               />
             </div>
 
@@ -168,6 +141,7 @@ const JoinUs = () => {
                 value={form.occupation}
                 onChange={handleOnChange}
                 className="inp"
+                required
               />
             </div>
 
@@ -180,6 +154,7 @@ const JoinUs = () => {
                 value={form.qualification}
                 onChange={handleOnChange}
                 className="inp"
+                required
               />
             </div>
 
@@ -192,18 +167,22 @@ const JoinUs = () => {
                 value={form.purpose}
                 onChange={handleOnChange}
                 className="inp"
+                required
               />
             </div>
 
             <div className="field">
               <label htmlFor="dur">Duration</label>
               <select
+                required
                 id="dur"
                 name="duration"
                 value={form.duration}
                 onChange={handleOnChange}
                 className="sel"
+                
               >
+                <option value="">Select duration</option>
                 <option value="One month">One month</option>
                 <option value="Two month">Two month</option>
                 <option value="Three month">Three month</option>
