@@ -42,3 +42,46 @@ npm run dev
 - axios
 - react-toastify
 - Bootstrap Icons
+
+
+---
+
+
+## Features
+
+**Home**
+
+- Displayed Information of the platform.
+- Testimonial of community members.
+- FAQs
+- Join button to register in the community.
+
+
+ **About**
+
+ - About the community initiator with screenshots of community seassions.
+
+ **Schedule** 
+
+ - Displayed Schedule of the seassions.
+
+ ---
+
+## API Refrence
+
+ ### GET /[api/testimonials](lnf-backend.vercel.app/)<br/>
+
+ List  of all Testimonialss <br/>  
+
+ Sample Response: <br/>
+ 
+ ```
+
+[{ _id, name, source, salesAgent, status, tags}, ...] 
+
+
+ ```
+
+
+ ### GET /[api/salesAgent](https://anvaya-model-references-apis-backen.vercel.app/salesAgent)<br/>
+
