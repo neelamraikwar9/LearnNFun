@@ -51,7 +51,7 @@ npm run dev
 
 **Home**
 
-- Displayed Information of the platform.
+- Displayed Information about the platform.
 - Testimonial of community members.
 - FAQs
 - Join button to register in the community.
@@ -63,7 +63,7 @@ npm run dev
 
  **Schedule** 
 
- - Displayed Schedule of the seassions.
+ - Displayed schedule of the seassions.
 
  ---
 
