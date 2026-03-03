@@ -69,19 +69,57 @@ npm run dev
 
 ## API Refrence
 
- ### GET /[api/testimonials](lnf-backend.vercel.app/)<br/>
+ ### GET /[api/testimonials](https://lnf-backend.vercel.app/testimonials)<br/>
 
- List  of all Testimonialss <br/>  
+ List  of all Testimonials <br/>  
+
 
  Sample Response: <br/>
  
  ```
 
-[{ _id, name, source, salesAgent, status, tags}, ...] 
+[{ _id, name, testimonial}] 
 
 
  ```
 
 
- ### GET /[api/salesAgent](https://anvaya-model-references-apis-backen.vercel.app/salesAgent)<br/>
+ ### GET /[api/activities](https://lnf-backend.vercel.app/activities)<br/>
+
+ List  of all Activities <br/>  
+
+
+ Sample Response: <br/>
+ 
+ ```
+
+[{ _id, weekDay, activityName, activityDescription}] 
+
+
+ ```
+
+
+ ### POST /[api/forms](https://lnf-backend.vercel.app/forms)<br/>
+
+ Register the Learner <br/>  
+
+
+ Sample Response: <br/>
+ 
+ ```
+
+[{ _id, name, email, city, contactNumber, occupation, purpose, duration}] 
+
+
+ ```
+
+
+--- 
+
+
+## Contact
+ 
+ For bugs or feature request, please reach out to, 
+ Email:- neelam.raikwar.234303@gmail.com
+ Linkedin:- https://www.linkedin.com/in/neelam-raikwar-204614250/
 
