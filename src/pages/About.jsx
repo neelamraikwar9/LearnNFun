@@ -90,14 +90,15 @@ const About = () => {
             <br/>
 
 
-            <div className="smssCon">
+            {/* <div className="smssCon">
+            <h1>is this...</h1>
               <img
                 src="https://res.cloudinary.com/dltfnhclh/image/upload/v1764702831/lnf_ss1_zkf1kr.webp"
                 alt="img"
                 className="smss"
                 style={{ width: "45rem" }}
               />
-            </div>
+            </div> */}
 
             <h2 style={{marginLeft: "23rem", fontFamily:"cursive", fontSize: '2rem'}}>Learners Who Make LNF Special</h2>
           </div>
